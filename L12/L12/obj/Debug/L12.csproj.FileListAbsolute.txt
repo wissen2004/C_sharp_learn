@@ -1,0 +1,14 @@
+C:\Users\ASUS\Desktop\BD_lab\L12\L12\bin\Debug\L12.exe.config
+C:\Users\ASUS\Desktop\BD_lab\L12\L12\bin\Debug\L12.exe
+C:\Users\ASUS\Desktop\BD_lab\L12\L12\bin\Debug\L12.pdb
+C:\Users\ASUS\Desktop\BD_lab\L12\L12\obj\Debug\L12.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\BD_lab\L12\L12\obj\Debug\L12.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Desktop\BD_lab\L12\L12\obj\Debug\L12.Form1.resources
+C:\Users\ASUS\Desktop\BD_lab\L12\L12\obj\Debug\L12.Form2.resources
+C:\Users\ASUS\Desktop\BD_lab\L12\L12\obj\Debug\L12.Form3.resources
+C:\Users\ASUS\Desktop\BD_lab\L12\L12\obj\Debug\L12.Form4.resources
+C:\Users\ASUS\Desktop\BD_lab\L12\L12\obj\Debug\L12.Properties.Resources.resources
+C:\Users\ASUS\Desktop\BD_lab\L12\L12\obj\Debug\L12.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\BD_lab\L12\L12\obj\Debug\L12.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\BD_lab\L12\L12\obj\Debug\L12.exe
+C:\Users\ASUS\Desktop\BD_lab\L12\L12\obj\Debug\L12.pdb

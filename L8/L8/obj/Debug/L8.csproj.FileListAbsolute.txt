@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\BD_lab\L8\L8\bin\Debug\L8.exe.config
+C:\Users\ASUS\Desktop\BD_lab\L8\L8\bin\Debug\L8.exe
+C:\Users\ASUS\Desktop\BD_lab\L8\L8\bin\Debug\L8.pdb
+C:\Users\ASUS\Desktop\BD_lab\L8\L8\obj\Debug\L8.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\BD_lab\L8\L8\obj\Debug\L8.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Desktop\BD_lab\L8\L8\obj\Debug\L8.Form1.resources
+C:\Users\ASUS\Desktop\BD_lab\L8\L8\obj\Debug\L8.Properties.Resources.resources
+C:\Users\ASUS\Desktop\BD_lab\L8\L8\obj\Debug\L8.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\BD_lab\L8\L8\obj\Debug\L8.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\BD_lab\L8\L8\obj\Debug\L8.exe
+C:\Users\ASUS\Desktop\BD_lab\L8\L8\obj\Debug\L8.pdb
