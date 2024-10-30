@@ -17,3 +17,16 @@ C:\Users\ASUS\Desktop\BD_lab\13L\13L\obj\Debug\_13L.Sales.resources
 C:\Users\ASUS\Desktop\BD_lab\13L\13L\obj\Debug\_13L.SalesS.resources
 C:\Users\ASUS\Desktop\BD_lab\13L\13L\obj\Debug\_13L.Order.resources
 C:\Users\ASUS\Desktop\BD_lab\13L\13L\obj\Debug\_13L.OrderS.resources
+C:\Users\ASUS\Desktop\Все\BD_lab\13L\13L\bin\Debug\13L.exe.config
+C:\Users\ASUS\Desktop\Все\BD_lab\13L\13L\bin\Debug\13L.exe
+C:\Users\ASUS\Desktop\Все\BD_lab\13L\13L\bin\Debug\13L.pdb
+C:\Users\ASUS\Desktop\Все\BD_lab\13L\13L\obj\Debug\13L.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Все\BD_lab\13L\13L\obj\Debug\13L.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Desktop\Все\BD_lab\13L\13L\obj\Debug\_13L.Form1.resources
+C:\Users\ASUS\Desktop\Все\BD_lab\13L\13L\obj\Debug\_13L.Menu.resources
+C:\Users\ASUS\Desktop\Все\BD_lab\13L\13L\obj\Debug\_13L.MenuS.resources
+C:\Users\ASUS\Desktop\Все\BD_lab\13L\13L\obj\Debug\_13L.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Все\BD_lab\13L\13L\obj\Debug\13L.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Все\BD_lab\13L\13L\obj\Debug\13L.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Все\BD_lab\13L\13L\obj\Debug\13L.exe
+C:\Users\ASUS\Desktop\Все\BD_lab\13L\13L\obj\Debug\13L.pdb

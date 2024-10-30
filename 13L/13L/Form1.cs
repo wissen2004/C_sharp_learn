@@ -49,40 +49,10 @@ namespace _13L
             fms.Show();
         }
 
-        private void добавитьToolStripMenuItem3_Click(object sender, EventArgs e)
-        {
-            SotrudnikAdd fs = new SotrudnikAdd();
-            fs.Show();
-        }
+   
 
-        private void посмотретьToolStripMenuItem3_Click(object sender, EventArgs e)
-        {
-            SotrudnikS fss = new SotrudnikS();
-            fss.Show();
-        }
+    
 
-        private void добавитьToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Sales fsl = new Sales();
-            fsl.Show();
-        }
-
-        private void посмотретьToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            SalesS fsls = new SalesS();
-            fsls.Show();
-        }
-
-        private void добавитьToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            Order fo = new Order();
-            fo.Show();
-        }
-
-        private void посмотретьToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            OrderS fos = new OrderS();
-            fos.Show();
-        }
+     
     }
 }

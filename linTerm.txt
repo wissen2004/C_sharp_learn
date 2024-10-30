@@ -1,0 +1,2537 @@
+все команды
+
+qq@Lin:~$ history
+    1  man pwd
+    2  pwd
+    3  man cd
+    4  cd/
+    5  man ls
+    6  ls
+    7  man mkdir
+    8  mkdir test
+    9  cd test
+   10  ls
+   11  mkdir test2
+   12  touch test2/text
+   13  mv test2/text test2/textSIT
+   14  cp test2/textSIT test2/copy.txt
+   15  ln test2/copy.txt link
+   16  ln -s test2/copy.txt simlink
+   17  ls -la
+   18  ls
+   19  cd ..
+   20  ls
+   21  cd test/
+   22  sudo useradd -m sit2
+   23  sudo passwd sit2
+   24  exit
+   25  ls
+   26  cd ..
+   27  ls
+   28  umask 0077
+   29  touch file.txt
+   30  ls
+   31  cat file.txt
+   32  chmod 130 file.txt
+   33  nano file.txt
+   34  cat file.txt
+   35  ls
+   36  ls -l file.txt
+   37  cat file.txt
+   38  ls
+   39  rm *
+   40  ls
+   41  rm -d *
+   42  ls
+   43  cd ..
+   44  ls
+   45  cd rm -rf test
+   46  cd rm test
+   47  cd test/
+   48  ls
+   49  rm -d test2
+   50  ls
+   51  cd test2/
+   52  ls
+   53  rm *
+   54  ls
+   55  cd ..
+   56  rm *
+   57  rm -d *
+   58  ls
+   59  sudo useradd -m sit2
+   60  sudo passwd sit2
+   61  exit
+   62  su sit
+   63  sudo useradd -m sit
+   64  sudo passwd sit2
+   65  sudo passwd sit
+   66  exit
+   67  sudo useradd -m sit2
+   68  sudo passwd sit2
+   69  exit
+   70  history
+   71  ls
+   72  cd test
+   73  su sit
+   74  su sit2
+   75  exit
+   76  su sit
+   77  su sit2
+   78  ls -ld /home/sit
+   79  ls -ld /home/sit2
+   80  su sit2
+   81  123456789
+   82  su sit2
+   83  ls
+   84  cd ..
+   85  ls
+   86  sudo useradd -m sit2
+   87  cd ..
+   88  ls
+   89  cd ..
+   90  ls
+   91  cd ..
+   92  ls
+   93  sudo useradd -m -d /home/sit2 sit2
+   94  sudo passwd sit2
+   95  ls
+   96  sudo useradd -m -d /home/sit2 sit2
+   97  sudo useradd -m -d /home/sit2 sit
+   98  sudo useradd -m -d /home/sit sit
+   99  sudo passwd sit2
+  100  sudo passwd sit
+  101  sudo useradd -m -d /home/sit2 sit2
+  102  ls
+  103  cd ..
+  104  ls
+  105  cd home
+  106  ls
+  107  sudo useradd -m -d /home/sit2
+  108  sudo -m -d /home/sit2
+  109  ls
+  110  su sit
+  111  cd ..
+  112  ls
+  113  fdisk /dev/sdb
+  114  ls
+  115  cd ..
+  116  ls
+  117  fdisk
+  118  fdisk /dev/sdb
+  119  sudo fdisk /dev/sdb
+  120  ls /dev/sd*
+  121  sudo mkfs.ext4 /dev/sdb1
+  122  sudo mkfs.ext4 /dev/sdb2
+  123  sudo mkfs.ext4 /dev/sdb3
+  124  sudo mkfs.ext4 /dev/sdb4
+  125  sudo mkfs.ext4 /dev/sdb
+  126  ls /dev/sd*
+  127  sudo fdisk /dev/sdb
+  128  ls /dev/sd*
+  129  sudo mkfs.ext4 /dev/sdb5
+  130  ls /dev/sd*
+  131  sudo mkdir /mnt/partition1
+  132  sudo mkdir /mnt/partition2
+  133  sudo mkdir /mnt/partition3
+  134  sudo mkdir /mnt/partition5
+  135  sudo mount /dev/sdb1 /mnt/patition1
+  136  sudo mount /dev/sdb1 /mnt/partition1
+  137  sudo mount /dev/sdb2 /mnt/partition2
+  138  sudo mount /dev/sdb3 /mnt/partition3
+  139  sudo mount /dev/sdb5 /mnt/partition5
+  140  sudo tee /mnt/partition1/file1.txt
+  141  ls /mnt/partition1
+  142  sudo tee /mnt/partition2/file2.txt
+  143  sudo tee /mnt/partition3/file3.txt
+  144  sudo tee /mnt/partition5/file5.txt
+  145  ls /mnt/partition1
+  146  ls /mnt/partition2
+  147  ls /mnt/partition3
+  148  ls /mnt/partition5
+  149  sudo dd if=/dev/sda of=mbr_backup bs=512 count=1
+  150  sudo dd if=/dev/zero of=/dev/sda bs=512 count=1
+  151  sudo dd if=mbr_backup of=/dev/sda bs=512 count=1
+  152  sudo umount /dev/sdb1
+  153  sudo fsck /dev/sdb1
+  154  sudo mount /dev/sdb1 /mnt/partition1
+  155  sudo umount /mnt/partition1
+  156  sudo apt-get install gdisk
+  157  sudo gdisk /dev/sdb
+  158  ls /dev/sd*
+  159  sudo mkfs.ext3 /dev/sdb1
+  160  sudo mkfs.ext3 /dev/sdb2
+  161  sudo mkfs.ext3 /dev/sdb3
+  162  sudo mkfs.ext3 /dev/sdb1
+  163  sudo mkfs.ext3 /dev/sdb2
+  164  sudo mkfs.ext3 /dev/sdb3
+  165  sudo mkfs.ext3 /dev/sdb4
+  166  sudo mkfs.ext3 /dev/sdb5
+  167  sudo mkdir /mnt/partition1
+  168  sudo mkdir /mnt/partition6
+  169  sudo mount /dev/sdb1 /mnt/partition6
+  170  sudo tee /mnt/partition6/file1.txt
+  171  ls /mnt/partition6
+  172  sudo dd if=/dev/sdb of=gpt_backup bs=1048576 count=1
+  173  sudo dd if=/dev/zero of=/dev/sdb bs=1M count=1
+  174  sudo dd if=gpt_backup of=/dev/sdb bs=1048576 count=1
+  175  sudo mkdir /mnt/partition6
+  176  sudo mkdir /mnt/partition7
+  177  sudo mount /dev/sdb1 /mnt/partition7
+  178  ls /mnt/partition7
+  179  sudo umount /mnt/partition7
+  180  sudo groupadd stud3k
+  181  sudo useradd -m -g stud3k Stud51
+  182  sudo useradd -m -g stud3k Stud52
+  183  sudo useradd -m -g stud3k Stud53
+  184  sudo useradd -m -g stud3k Stud54
+  185  sudo passwd Stud51
+  186  sudo passwd Stud52
+  187  sudo passwd Stud53
+  188  sudo passwd Stud54
+  189  grep stud3k /etc/group
+  190  groups Stud51
+  191  sudo fdisk /dev/sdb
+  192  ls /dev/sd*
+  193  sudo mkfs.ext4 /dev/sdb1
+  194  sudo mkfs.ext4 /dev/sdb2
+  195  sudo mkfs.ext4 /dev/sdb3
+  196  sudo mkfs.ext4 /dev/sdb4
+  197  sudo mkfs.ext4 /dev/sdb5
+  198  sudo apt-get install testdisk
+  199  sudo dd if=/dev/zero of=/dev/sdX bs=512 count=1
+  200  sudo testdisk
+  201  exit
+  202  history
+  203  mkdir mylogs
+  204  cp -r /var/log/* mylogs/
+  205  rm -r mylogs/*
+  206  mkdir myetc
+  207  sudo cp -r /etc/* myetc/
+  208  sudo apt-get install extundelete
+  209  sudo extundelete --restore-all --output-dir=recovered_files /dev/sdb1
+  210  sudo apt-get install foremost
+  211  sudo foremost -t jpg -i /dev/sdb1 -o recovered_files
+  212  watch -n 1 cat /proc/mdstat
+  213  sudo pvcreate /dev/sdb /dev/sdc /dev/sdd /dev/sde
+  214  sudo vgcreate myvg /dev/sdb /dev/sdc /dev/sdd /dev/sde
+  215  sudo vgdisplay myvg
+  216  sudo lvcreate -n mylv -L 1G myvg
+  217  sudo vgcreate myvg /dev/sdb /dev/sdc /dev/sdd /dev/sde
+  218  sudo lvcreate -n mylv -L 1G myvg
+  219  sudo mkdir /mnt/lvm
+  220  sudo mount /dev/myvg/mylv /mnt/lvm
+  221  cd /mnt/lvm
+  222  sudo touch LVM.txt
+  223  sudo pvcreate /dev/sdf
+  224  sudo vgextend myvg /dev/sdf
+  225  sudo vgdisplay myvg | grep "Total PE"
+  226  sudo lvdisplay /dev/myvg/mylv | grep "LV Size"
+  227  sudo vgdisplay myvg | grep "Free  PE"
+  228  sudo lsblk -f
+  229  sudo resize2fs /dev/myvg/mylv
+  230  sudo lvcreate -s -n snapshot_name -L size original_lv
+  231  sudo lvcreate -s -n mysnapshot -L 1G /dev/myvg/mylv
+  232  history
+qq@Lin:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+qq@Lin:~$ man pwd
+qq@Lin:~$ pwd
+/home/qq
+qq@Lin:~$ man cd
+No manual entry for cd
+qq@Lin:~$ cd/
+bash: cd/: No such file or directory
+qq@Lin:~$ man ls
+qq@Lin:~$ 
+qq@Lin:~$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  snap  Templates  Videos
+qq@Lin:~$ man mkdir
+qq@Lin:~$ 
+qq@Lin:~$ mkdir test
+qq@Lin:~$ cd test
+qq@Lin:~/test$ ls
+qq@Lin:~/test$ mkdir test2
+qq@Lin:~/test$ touch test2/text
+qq@Lin:~/test$ mv test2/text test2/textSIT
+qq@Lin:~/test$ cp test2/textSIT test2/copy.txt
+qq@Lin:~/test$ ln test2/copy.txt link
+qq@Lin:~/test$ ln -s test2/copy.txt simlink
+qq@Lin:~/test$ ls -la
+total 12
+drwxrwxr-x  3 qq qq 4096 Нау 21 16:38 .
+drwxr-xr-x 17 qq qq 4096 Нау 21 16:37 ..
+-rw-rw-r--  2 qq qq    0 Нау 21 16:38 link
+lrwxrwxrwx  1 qq qq   14 Нау 21 16:38 simlink -> test2/copy.txt
+drwxrwxr-x  2 qq qq 4096 Нау 21 16:38 test2
+qq@Lin:~/test$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3
+
+
+
+
+ 21  cd test/
+   22  sudo useradd -m sit2
+   23  sudo passwd sit2
+   24  exit
+
+
+
+
+qq@Lin:~$ history
+    1  man pwd
+    2  pwd
+    3  man cd
+    4  cd/
+    5  man ls
+    6  ls
+    7  man mkdir
+    8  mkdir test
+    9  cd test
+   10  ls
+   11  mkdir test2
+   12  touch test2/text
+   13  mv test2/text test2/textSIT
+   14  cp test2/textSIT test2/copy.txt
+   15  ln test2/copy.txt link
+   16  ln -s test2/copy.txt simlink
+   17  ls -la
+   18  ls
+   19  cd ..
+   20  ls
+   21  cd test/
+   22  sudo useradd -m sit2
+   23  sudo passwd sit2
+   24  exit
+   25  history
+qq@Lin:~$ ls
+Desktop    Downloads  Pictures  snap       test
+Documents  Music      Public    Templates  Videos
+qq@Lin:~$ cd test
+qq@Lin:~/test$ su sit
+su: user sit does not exist
+qq@Lin:~/test$ su sit2
+Password: 
+$ ls
+link  simlink  test2
+$ id sit2
+uid=1002(sit2) gid=1002(sit2) groups=1002(sit2)
+$ ls -ld /home/sit2
+drwxr-xr-x 2 sit2 sit2 4096 Нау 21 16:41 /home/sit2
+$ umask 0077
+touch file.txt$ 
+touch: cannot touch 'file.txt': Permission denied
+$ touch file.txt
+touch: cannot touch 'file.txt': Permission denied
+$ ls
+link  simlink  test2
+$ ls
+link  simlink  test2
+$ touch f.txt
+touch: cannot touch 'f.txt': Permission denied
+$ ls
+link  simlink  test2
+$ cd test2	
+$ touch f.txt
+touch: cannot touch 'f.txt': Permission denied
+$ su sit2
+Password: 
+$ ouch file.txt
+sh: 1: ouch: not found
+$ ls
+copy.txt  textSIT
+$ cd testSIT
+sh: 3: cd: can't cd to testSIT
+$ touch t.tst
+touch: cannot touch 't.tst': Permission denied
+$ touch t.txt
+touch: cannot touch 't.txt': Permission denied
+$ su qq
+Password: 
+qq@Lin:~/test/test2$ ls
+copy.txt  textSIT
+qq@Lin:~/test/test2$ cd ..
+qq@Lin:~/test$ ls
+link  simlink  test2
+qq@Lin:~/test$ umask 0077
+qq@Lin:~/test$ touch file.txt
+qq@Lin:~/test$ ls
+file.txt  link  simlink  test2
+qq@Lin:~/test$ cat file.txt
+qq@Lin:~/test$ chmod 130 file.txt
+qq@Lin:~/test$ nano file.txt
+qq@Lin:~/test$ cat file.txt
+cat: file.txt: Permission denied
+qq@Lin:~/test$ ls          
+'^C'   file.txt   link   simlink   test2
+qq@Lin:~/test$ ls -l file.txt
+---x-wx--- 1 qq qq 0 Нау 21 16:47 file.txt
+qq@Lin:~/test$ cat file.txt
+cat: file.txt: Permission denied
+qq@Lin:~/test$ ls
+'^C'   file.txt   link   simlink   test2
+qq@Lin:~/test$ rm *
+rm: remove write-protected regular empty file 'file.txt'? yes
+rm: cannot remove 'test2': Is a directory
+qq@Lin:~/test$ ls
+test2
+qq@Lin:~/test$ rm -d *
+rm: cannot remove 'test2': Directory not empty
+qq@Lin:~/test$ ls
+test2
+qq@Lin:~/test$ cd ..
+qq@Lin:~$ ls
+Desktop    Downloads  Pictures  snap       test
+Documents  Music      Public    Templates  Videos
+qq@Lin:~$ cd rm -rf test
+bash: cd: too many arguments
+qq@Lin:~$ cd rm test    
+bash: cd: too many arguments
+qq@Lin:~$ cd test/  
+qq@Lin:~/test$ ls
+test2
+qq@Lin:~/test$ rm -d test2
+rm: cannot remove 'test2': Directory not empty
+qq@Lin:~/test$ ls
+test2
+qq@Lin:~/test$ cd test2/
+qq@Lin:~/test/test2$ ls
+copy.txt  textSIT
+qq@Lin:~/test/test2$ rm *
+qq@Lin:~/test/test2$ ls
+qq@Lin:~/test/test2$ cd ..
+qq@Lin:~/test$ rm *
+rm: cannot remove 'test2': Is a directory
+qq@Lin:~/test$ rm -d *
+qq@Lin:~/test$ ls
+qq@Lin:~/test$ sudo useradd -m sit2
+[sudo] password for qq: 
+useradd: user 'sit2' already exists
+qq@Lin:~/test$ sudo useradd -m sit2
+qq@Lin:~/test$ sudo passwd sit2
+New password: 
+Retype new password: 
+passwd: password updated successfully
+qq@Lin:~/test$ exit
+exit
+$ su sit2
+Password: 
+sh: 0: getcwd() failed: No such file or directory
+$ ls
+$ id sit
+uid=1003(sit) gid=1003(sit) groups=1003(sit)
+$ ls -ld /home/sit
+drwxr-xr-x 2 sit sit 4096 Нау 21 16:57 /home/sit
+$ umask 0077
+$ touch file.txt
+touch: cannot touch 'file.txt': No such file or directory
+$ ls
+$ mkdir test
+mkdir: cannot create directory 'test': No such file or directory
+$ su qq
+Password: 
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+sh: 0: getcwd() failed: No such file or directory
+qq@Lin:$ sudo useradd -m sit2
+qq@Lin:$ sudo passwd sit2
+New password: 
+Retype new password: 
+passwd: password updated successfully
+qq@Lin:$ exit
+exit
+$ su sit2
+Password: 
+sh: 0: getcwd() failed: No such file or directory
+$ ls
+$ 
+
+
+
+
+
+
+qq@Lin:~$ ls
+Desktop    Downloads  Pictures  snap       test
+Documents  Music      Public    Templates  Videos
+qq@Lin:~$ cd ..
+qq@Lin:/home$ ls
+lin  qq
+qq@Lin:/home$ sudo useradd -m -d /home/sit sit
+[sudo] password for qq: 
+qq@Lin:/home$ ls
+lin  qq  sit
+qq@Lin:/home$ sudo useradd -m -d /home/sit2 sit2
+qq@Lin:/home$ ls
+lin  qq  sit  sit2
+qq@Lin:/home$ sudo passwd sit
+New password: 
+Retype new password: 
+passwd: password updated successfully
+qq@Lin:/home$ sudo passwd sit2
+New password: 
+Retype new password: 
+passwd: password updated successfully
+qq@Lin:/home$ ls
+lin  qq  sit  sit2
+qq@Lin:/home$ 
+
+
+
+
+
+qq@Lin:~$ su sit2
+Password: 
+$ ls
+Desktop    Downloads  Pictures	snap	   test
+Documents  Music      Public	Templates  Videos
+$ cd ..
+$ ls
+lin  qq  sit  sit2
+$ id sit2
+uid=1003(sit2) gid=1003(sit2) groups=1003(sit2)
+$ ls
+lin  qq  sit  sit2
+$ ls -ld sit2
+drwxr-xr-x 2 sit2 sit2 4096 Нау 21 18:54 sit2
+$ whoami
+sit2
+$ umask 0077
+$ ls
+lin  qq  sit  sit2
+$ touch file.txt
+touch: cannot touch 'file.txt': Permission denied
+$ ls
+lin  qq  sit  sit2
+$ cd sit2
+$ ls
+$ ls
+$ whoami      
+sit2
+$ ls
+$ ls 
+$ cd ..
+$ ls
+lin  qq  sit  sit2
+$ cd sit
+$ ls
+$ cd ..
+$ cd sit2
+$ ls
+$ ls -a
+.  ..  .bash_logout  .bashrc  .profile
+$ ls -la
+total 20
+drwxr-xr-x 2 sit2 sit2 4096 Нау 21 18:54 .
+drwxr-xr-x 6 root root 4096 Нау 21 18:54 ..
+-rw-r--r-- 1 sit2 sit2  220 Ақп 25  2020 .bash_logout
+-rw-r--r-- 1 sit2 sit2 3771 Ақп 25  2020 .bashrc
+-rw-r--r-- 1 sit2 sit2  807 Ақп 25  2020 .profile
+$ ls
+$ cd ..
+$ ls
+lin  qq  sit  sit2
+$ cd sit2
+$ pwd
+/home/sit2
+$ touch file.txt
+$ ls
+file.txt
+$ rm file.txt
+$ ls
+$ umask 0077
+$ touch file.txt
+$ ls
+file.txt
+$ ls
+file.txt
+$ whoami  
+sit2
+$ chmod u=w file.txt
+$ ls
+file.txt
+$ cat file.txt
+cat: file.txt: Permission denied
+$ whoami
+sit2
+$ ls
+file.txt
+$ cd ..
+$ ls
+lin  qq  sit  sit2
+$ cd sit2
+$ l
+sh: 49: l: not found
+$ ls
+file.txt
+$ cat file.txt
+cat: file.txt: Permission denied
+$ ls
+file.txt
+$ chmod u+rw file.txt
+$ cat file.txt
+$ ls
+file.txt
+$ ls       
+file.txt
+$ chmod u=w file.txt
+$ cat file.txt
+cat: file.txt: Permission denied
+$ ls
+file.txt
+$ chmod u+rw file.txt
+$ 
+$ cat file
+cat: file: No such file or directory
+$ cat file.txt
+$ cat file.txt
+$ cat file.txt
+$ ls
+file.txt
+$ vi file.txt
+$ cat file.txt
+chmod u+rw file.txt
+
+$ ls
+file.txt
+$ cd ..
+$ ls
+lin  qq  sit  sit2
+$ whoami
+sit2
+$ cd sit2
+$ mkdir dir  
+$ l
+sh: 75: l: not found
+$ ls
+dir  file.txt
+$ chmod g+w dir
+$ ls
+dir  file.txt
+$ ls
+dir  file.txt
+$ cd ..
+$ ls
+lin  qq  sit  sit2
+$ sudo usermod -aG sit2 sit
+[sudo] password for sit2: 
+sit2 is not in the sudoers file.  This incident will be reported.
+$ ls
+lin  qq  sit  sit2
+$ cd sit2
+$ sudo usermod -aG sit2 sit
+[sudo] password for sit2: 
+sit2 is not in the sudoers file.  This incident will be reported.
+$ ls
+dir  file.txt
+$ cd ..
+$ ls
+lin  qq  sit  sit2
+$ su qq
+Password: 
+qq@Lin:/home$ ls
+lin  qq  sit  sit2
+qq@Lin:/home$ sudo usermod -aG sit2 sit
+[sudo] password for qq: 
+qq@Lin:/home$ ls
+lin  qq  sit  sit2
+qq@Lin:/home$ ls
+lin  qq  sit  sit2
+qq@Lin:/home$ groups sit
+sit : sit sit2
+qq@Lin:/home$ ls                                            
+lin  qq  sit  sit2
+qq@Lin:/home$ ls
+lin  qq  sit  sit2
+qq@Lin:/home$ cd sit2
+qq@Lin:/home/sit2$ ls
+dir  file.txt
+qq@Lin:/home/sit2$ cd dir
+bash: cd: dir: Permission denied
+qq@Lin:/home/sit2$ ls
+dir  file.txt
+qq@Lin:/home/sit2$ su sit2
+Password: 
+ls
+su: Authentication failure
+qq@Lin:/home/sit2$ ls
+dir  file.txt
+qq@Lin:/home/sit2$ su sit2
+Password: 
+$ ls
+dir  file.txt
+$ cd dir
+$ ls
+$ touch f.txt
+$ touch f2.txt
+$ ls
+f2.txt	f.txt
+$ cd ..
+$ 
+
+
+qq@Lin:~$ su sit
+Password: 
+$ ls
+Desktop    Downloads  Pictures	snap	   test
+Documents  Music      Public	Templates  Videos
+$ cd ..
+$ ls
+lin  qq  sit  sit2
+$ id sit 
+uid=1002(sit) gid=1002(sit) groups=1002(sit)
+$ ls
+lin  qq  sit  sit2
+$ ls -ld sit
+drwxr-xr-x 2 sit sit 4096 Нау 21 18:54 sit
+$ whoami
+sit
+$ ls
+lin  qq  sit  sit2
+$ cd sit2
+$ ls
+file.txt
+$ cat file.txt
+cat: file.txt: Permission denied
+$ ls
+file.txt
+$ vi file.txt 
+$ ls
+file.txt
+$ cat file.txt
+cat: file.txt: Permission denied
+$ chmod u=w file.txt
+chmod: changing permissions of 'file.txt': Operation not permitted
+$ ls 
+file.txt
+$ vi file.txt
+$ ls
+file.txt
+$ vi file.txt
+$ ls
+file.txt
+$ cat file
+cat: file: No such file or directory
+$ cat file.txt
+cat: file.txt: Permission denied
+$ vi file.txt
+$ cat file.txt
+cat: file.txt: Permission denied
+$ nano file.txt
+$ ls
+file.txt
+$ cat file.txt
+cat: file.txt: Permission denied
+$ whoami
+sit
+$ ls
+dir  file.txt
+$ cd dir
+sh: 31: cd: can't cd to dir
+$ ls
+dir  file.txt
+$ cd dir
+sh: 33: cd: can't cd to dir
+$ ^C
+$ 
+
+
+
+qq@Lin:~$ ls
+Desktop    Downloads  Pictures  snap       test
+Documents  Music      Public    Templates  Videos
+qq@Lin:~$ cd ..
+qq@Lin:/home$ ls
+lin  qq
+qq@Lin:/home$ sudo useradd -m -d /home/sit sit
+[sudo] password for qq: 
+qq@Lin:/home$ ls
+lin  qq  sit
+qq@Lin:/home$ sudo useradd -m -d /home/sit2 sit2
+qq@Lin:/home$ ls
+lin  qq  sit  sit2
+qq@Lin:/home$ sudo passwd sit
+New password: 
+Retype new password: 
+passwd: password updated successfully
+qq@Lin:/home$ sudo passwd sit2
+New password: 
+Retype new password: 
+passwd: password updated successfully
+qq@Lin:/home$ ls
+lin  qq  sit  sit2
+qq@Lin:/home$ 
+
+
+
+
+
+
+
+
+4
+
+
+
+
+
+
+
+qq@Lin:~$ ls
+Desktop    Downloads  Pictures  snap       test
+Documents  Music      Public    Templates  Videos
+qq@Lin:~$ cd ..
+qq@Lin:/home$ ls
+lin  qq  sit  sit2
+qq@Lin:/home$ sudo fdisk /dev/sdb
+[sudo] password for qq: 
+
+Welcome to fdisk (util-linux 2.34).
+Changes will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+Device does not contain a recognized partition table.
+Created a new DOS disklabel with disk identifier 0x61d468c5.
+
+Command (m for help): m
+
+Help:
+
+  DOS (MBR)
+   a   toggle a bootable flag
+   b   edit nested BSD disklabel
+   c   toggle the dos compatibility flag
+
+  Generic
+   d   delete a partition
+   F   list free unpartitioned space
+   l   list known partition types
+   n   add a new partition
+   p   print the partition table
+   t   change a partition type
+   v   verify the partition table
+   i   print information about a partition
+
+  Misc
+   m   print this menu
+   u   change display/entry units
+   x   extra functionality (experts only)
+
+  Script
+   I   load disk layout from sfdisk script file
+   O   dump disk layout to sfdisk script file
+
+  Save & Exit
+   w   write table to disk and exit
+   q   quit without saving changes
+
+  Create a new label
+   g   create a new empty GPT partition table
+   G   create a new empty SGI (IRIX) partition table
+   o   create a new empty DOS partition table
+   s   create a new empty Sun partition table
+
+
+Command (m for help): g
+Created a new GPT disklabel (GUID: 97F94F5B-8A1D-534E-BBC0-BF4652361537).
+
+Command (m for help): n
+Partition number (1-128, default 1): 1 
+First sector (2048-21357022, default 2048): 1000
+Value out of range.
+First sector (2048-21357022, default 2048): 
+Last sector, +/-sectors or +/-size{K,M,G,T,P} (2048-21357022, default 21357022): 
+
+Created a new partition 1 of type 'Linux filesystem' and of size 10,2 GiB.
+
+Command (m for help): o
+Created a new DOS disklabel with disk identifier 0xc38a7248.
+
+Command (m for help): n
+Partition type
+   p   primary (0 primary, 0 extended, 4 free)
+   e   extended (container for logical partitions)
+Select (default p): p
+Partition number (1-4, default 1): 1
+First sector (2048-21357055, default 2048): +1G
+Value out of range.
+First sector (2048-21357055, default 2048): 
+Last sector, +/-sectors or +/-size{K,M,G,T,P} (2048-21357055, default 21357055): 
+
+Created a new partition 1 of type 'Linux' and of size 10,2 GiB.
+
+Command (m for help): n
+All space for primary partitions is in use.
+
+Command (m for help): p
+Disk /dev/sdb: 10,19 GiB, 10934812672 bytes, 21357056 sectors
+Disk model: VBOX HARDDISK   
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0xc38a7248
+
+Device     Boot Start      End  Sectors  Size Id Type
+/dev/sdb1        2048 21357055 21355008 10,2G 83 Linux
+
+Command (m for help): 0
+0: unknown command
+
+Command (m for help): m
+
+Help:
+
+  DOS (MBR)
+   a   toggle a bootable flag
+   b   edit nested BSD disklabel
+   c   toggle the dos compatibility flag
+
+  Generic
+   d   delete a partition
+   F   list free unpartitioned space
+   l   list known partition types
+   n   add a new partition
+   p   print the partition table
+   t   change a partition type
+   v   verify the partition table
+   i   print information about a partition
+
+  Misc
+   m   print this menu
+   u   change display/entry units
+   x   extra functionality (experts only)
+
+  Script
+   I   load disk layout from sfdisk script file
+   O   dump disk layout to sfdisk script file
+
+  Save & Exit
+   w   write table to disk and exit
+   q   quit without saving changes
+
+  Create a new label
+   g   create a new empty GPT partition table
+   G   create a new empty SGI (IRIX) partition table
+   o   create a new empty DOS partition table
+   s   create a new empty Sun partition table
+
+
+Command (m for help): o
+
+Created a new DOS disklabel with disk identifier 0x8d0268e5.
+
+Command (m for help): n
+Partition type
+   p   primary (0 primary, 0 extended, 4 free)
+   e   extended (container for logical partitions)
+Select (default p): p
+Partition number (1-4, default 1): 1
+First sector (2048-21357055, default 2048): 1
+Value out of range.
+First sector (2048-21357055, default 2048): 2048
+Last sector, +/-sectors or +/-size{K,M,G,T,P} (2048-21357055, default 21357055): ^C
+Command (m for help): o
+
+Created a new DOS disklabel with disk identifier 0x76dc18ac.
+
+Command (m for help): o
+Created a new DOS disklabel with disk identifier 0x50f52b87.
+
+Command (m for help): n
+Partition type
+   p   primary (0 primary, 0 extended, 4 free)
+   e   extended (container for logical partitions)
+Select (default p): p
+Partition number (1-4, default 1): 1
+First sector (2048-21357055, default 2048): 2048
+Last sector, +/-sectors or +/-size{K,M,G,T,P} (2048-21357055, default 21357055): +2G
+
+Created a new partition 1 of type 'Linux' and of size 2 GiB.
+
+Command (m for help): n
+Partition type
+   p   primary (1 primary, 0 extended, 3 free)
+   e   extended (container for logical partitions)
+Select (default p): p
+Partition number (2-4, default 2): 2
+First sector (4196352-21357055, default 4196352): 2048
+Value out of range.
+First sector (4196352-21357055, default 4196352): 4196352
+Last sector, +/-sectors or +/-size{K,M,G,T,P} (4196352-21357055, default 21357055): +2G
+
+Created a new partition 2 of type 'Linux' and of size 2 GiB.
+
+Command (m for help): n
+Partition type
+   p   primary (2 primary, 0 extended, 2 free)
+   e   extended (container for logical partitions)
+Select (default p): p
+Partition number (3,4, default 3): 3
+First sector (8390656-21357055, default 8390656): 8390656
+Last sector, +/-sectors or +/-size{K,M,G,T,P} (8390656-21357055, default 21357055): +1G    
+
+Created a new partition 3 of type 'Linux' and of size 1 GiB.
+
+Command (m for help): n
+Partition type
+   p   primary (3 primary, 0 extended, 1 free)
+   e   extended (container for logical partitions)
+Select (default e): e
+
+Selected partition 4
+First sector (10487808-21357055, default 10487808): 10487808
+Last sector, +/-sectors or +/-size{K,M,G,T,P} (10487808-21357055, default 21357055): +1G
+
+Created a new partition 4 of type 'Extended' and of size 1 GiB.
+
+Command (m for help): w
+The partition table has been altered.
+Calling ioctl() to re-read partition table.
+Syncing disks.
+
+qq@Lin:/home$ 
+
+
+
+
+
+
+
+
+qq@Lin:~$ ls
+Desktop    Downloads  Pictures  snap       test
+Documents  Music      Public    Templates  Videos
+qq@Lin:~$ cd ..
+qq@Lin:/home$ ls
+'*'   lin   qq   sit   sit2
+qq@Lin:/home$ fdisk
+fdisk: bad usage
+Try 'fdisk --help' for more information.
+qq@Lin:/home$ fdisk /dev/sdb
+
+Welcome to fdisk (util-linux 2.34).
+Changes will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+fdisk: cannot open /dev/sdb: Permission denied
+qq@Lin:/home$ sudo fdisk /dev/sdb
+[sudo] password for qq: 
+
+Welcome to fdisk (util-linux 2.34).
+Changes will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+Device does not contain a recognized partition table.
+Created a new DOS disklabel with disk identifier 0x19e7093e.
+
+Command (m for help): n
+Partition type
+   p   primary (0 primary, 0 extended, 4 free)
+   e   extended (container for logical partitions)
+Select (default p): p
+Partition number (1-4, default 1): 1
+First sector (2048-21357055, default 2048): 2048
+Last sector, +/-sectors or +/-size{K,M,G,T,P} (2048-21357055, default 21357055): +1G
+
+Created a new partition 1 of type 'Linux' and of size 1 GiB.
+
+Command (m for help): n
+Partition type
+   p   primary (1 primary, 0 extended, 3 free)
+   e   extended (container for logical partitions)
+Select (default p): p
+Partition number (2-4, default 2): 2
+First sector (2099200-21357055, default 2099200): 2099200
+Last sector, +/-sectors or +/-size{K,M,G,T,P} (2099200-21357055, default 21357055): +1G
+
+Created a new partition 2 of type 'Linux' and of size 1 GiB.
+
+Command (m for help): n
+Partition type
+   p   primary (2 primary, 0 extended, 2 free)
+   e   extended (container for logical partitions)
+Select (default p): p
+Partition number (3,4, default 3): 3
+First sector (4196352-21357055, default 4196352): 4196352
+Last sector, +/-sectors or +/-size{K,M,G,T,P} (4196352-21357055, default 21357055): +1G
+
+Created a new partition 3 of type 'Linux' and of size 1 GiB.
+
+Command (m for help): n
+Partition type
+   p   primary (3 primary, 0 extended, 1 free)
+   e   extended (container for logical partitions)
+Select (default e): e
+
+Selected partition 4
+First sector (6293504-21357055, default 6293504): 6293504
+Last sector, +/-sectors or +/-size{K,M,G,T,P} (6293504-21357055, default 21357055): +1G
+
+Created a new partition 4 of type 'Extended' and of size 1 GiB.
+
+Command (m for help): w
+The partition table has been altered.
+Calling ioctl() to re-read partition table.
+Syncing disks.
+
+qq@Lin:/home$ ls /dev/sd*
+/dev/sda   /dev/sda2  /dev/sdb   /dev/sdb2  /dev/sdb4
+/dev/sda1  /dev/sda5  /dev/sdb1  /dev/sdb3
+qq@Lin:/home$ sudo mkfs.ext4 /dev/sdb1
+mke2fs 1.45.5 (07-Jan-2020)
+Creating filesystem with 262144 4k blocks and 65536 inodes
+Filesystem UUID: 361e4645-ceff-48a0-bf80-ea5c6f5a24f6
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Creating journal (8192 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+qq@Lin:/home$ sudo mkfs.ext4 /dev/sdb2
+mke2fs 1.45.5 (07-Jan-2020)
+Creating filesystem with 262144 4k blocks and 65536 inodes
+Filesystem UUID: aea72db8-306a-49ce-8f73-50cec7369b70
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Creating journal (8192 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+qq@Lin:/home$ sudo mkfs.ext4 /dev/sdb3
+mke2fs 1.45.5 (07-Jan-2020)
+Creating filesystem with 262144 4k blocks and 65536 inodes
+Filesystem UUID: dd9e7d00-7963-4eb7-953c-593aa1fb5deb
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Creating journal (8192 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+qq@Lin:/home$ sudo mkfs.ext4 /dev/sdb4
+mke2fs 1.45.5 (07-Jan-2020)
+Found a dos partition table in /dev/sdb4
+Proceed anyway? (y,N) y
+mkfs.ext4: inode_size (128) * inodes_count (0) too big for a
+	filesystem with 0 blocks, specify higher inode_ratio (-i)
+	or lower inode count (-N).
+
+qq@Lin:/home$ sudo mkfs.ext4 /dev/sdb 
+mke2fs 1.45.5 (07-Jan-2020)
+Found a dos partition table in /dev/sdb
+Proceed anyway? (y,N) n
+
+qq@Lin:/home$ ls /dev/sd*
+/dev/sda   /dev/sda2  /dev/sdb   /dev/sdb2  /dev/sdb4
+/dev/sda1  /dev/sda5  /dev/sdb1  /dev/sdb3
+qq@Lin:/home$ sudo fdisk /dev/sdb
+
+Welcome to fdisk (util-linux 2.34).
+Changes will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+
+Command (m for help): n
+All primary partitions are in use.
+Adding logical partition 5
+First sector (6295552-8390655, default 6295552): 100000
+Value out of range.
+First sector (6295552-8390655, default 6295552): o   
+Value out of range.
+First sector (6295552-8390655, default 6295552): 6295552
+Last sector, +/-sectors or +/-size{K,M,G,T,P} (6295552-8390655, default 8390655): +1G
+Value out of range.
+Last sector, +/-sectors or +/-size{K,M,G,T,P} (6295552-8390655, default 8390655): 8390655
+
+Created a new partition 5 of type 'Linux' and of size 1023 MiB.
+
+Command (m for help): w
+The partition table has been altered.
+Calling ioctl() to re-read partition table.
+Syncing disks.
+
+qq@Lin:/home$ ls /dev/sd*
+/dev/sda   /dev/sda2  /dev/sdb   /dev/sdb2  /dev/sdb4
+/dev/sda1  /dev/sda5  /dev/sdb1  /dev/sdb3  /dev/sdb5
+qq@Lin:/home$ sudo mkfs.ext4 /dev/sdb5
+mke2fs 1.45.5 (07-Jan-2020)
+Creating filesystem with 261888 4k blocks and 65536 inodes
+Filesystem UUID: e53a12f7-1680-4c9e-8212-0dfefebbd544
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Creating journal (4096 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+qq@Lin:/home$ ls /dev/sd*
+/dev/sda   /dev/sda2  /dev/sdb   /dev/sdb2  /dev/sdb4
+/dev/sda1  /dev/sda5  /dev/sdb1  /dev/sdb3  /dev/sdb5
+qq@Lin:/home$ sudo mkdir /mnt/partition1
+qq@Lin:/home$ sudo mkdir /mnt/partition2
+qq@Lin:/home$ sudo mkdir /mnt/partition3
+qq@Lin:/home$ sudo mkdir /mnt/partition5
+qq@Lin:/home$ sudo mount /dev/sdb1 /mnt/patition1
+mount: /mnt/patition1: mount point does not exist.
+qq@Lin:/home$ sudo mount /dev/sdb1 /mnt/partition1
+qq@Lin:/home$ sudo mount /dev/sdb2 /mnt/partition2
+qq@Lin:/home$ sudo mount /dev/sdb3 /mnt/partition3
+qq@Lin:/home$ sudo mount /dev/sdb5 /mnt/partition5
+qq@Lin:/home$ sudo tee /mnt/partition1/file1.txt
+    
+
+^C
+qq@Lin:/home$ ls /mnt/partition1
+file1.txt  lost+found
+qq@Lin:/home$ sudo tee /mnt/partition2/file2.txt
+^C
+qq@Lin:/home$ sudo tee /mnt/partition3/file3.txt
+^C
+qq@Lin:/home$ sudo tee /mnt/partition5/file5.txt
+^?^C            
+qq@Lin:/home$ ls /mnt/partition1
+file1.txt  lost+found
+qq@Lin:/home$ ls /mnt/partition2
+file2.txt  lost+found
+qq@Lin:/home$ ls /mnt/partition3
+file3.txt  lost+found
+qq@Lin:/home$ ls /mnt/partition5
+file5.txt  lost+found
+qq@Lin:/home$ sudo dd if=/dev/sda of=mbr_backup bs=512 count=1
+1+0 records in
+1+0 records out
+512 bytes copied, 0,000251681 s, 2,0 MB/s
+qq@Lin:/home$ sudo dd if=/dev/zero of=/dev/sda bs=512 count=1
+1+0 records in
+1+0 records out
+512 bytes copied, 9,6195e-05 s, 5,3 MB/s
+qq@Lin:/home$ sudo dd if=mbr_backup of=/dev/sda bs=512 count=1
+1+0 records in
+1+0 records out
+512 bytes copied, 0,000149629 s, 3,4 MB/s
+qq@Lin:/home$ sudo umount /dev/sdb1
+qq@Lin:/home$ sudo fsck /dev/sdb1
+fsck from util-linux 2.34
+e2fsck 1.45.5 (07-Jan-2020)
+/dev/sdb1: clean, 12/65536 files, 12956/262144 blocks
+qq@Lin:/home$ sudo mount /dev/sdb1 /mnt/partition1
+qq@Lin:/home$ sudo umount /mnt/partition1
+qq@Lin:/home$ sudo apt-get install gdisk
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+gdisk is already the newest version (1.0.5-1).
+gdisk set to manually installed.
+The following packages were automatically installed and are no longer required:
+  gir1.2-goa-1.0 libfwupdplugin1 libxmlb1
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+qq@Lin:/home$ sudo gdisk /dev/sdb
+GPT fdisk (gdisk) version 1.0.5
+
+Partition table scan:
+  MBR: MBR only
+  BSD: not present
+  APM: not present
+  GPT: not present
+
+
+***************************************************************
+Found invalid GPT and valid MBR; converting MBR to GPT format
+in memory. THIS OPERATION IS POTENTIALLY DESTRUCTIVE! Exit by
+typing 'q' if you don't want to convert your MBR partitions
+to GPT format!
+***************************************************************
+
+
+Command (? for help): o
+This option deletes all partitions and creates a new protective MBR.
+Proceed? (Y/N): n
+
+Command (? for help): n
+Partition number (4-128, default 4): 4
+First sector (34-21357022, default = 8390656) or {+-}size{KMGTP}: 8390656
+Last sector (8390656-21357022, default = 21357022) or {+-}size{KMGTP}: 21357022
+Current type is 8300 (Linux filesystem)
+Hex code or GUID (L to show codes, Enter = 8300): 8300
+Changed type of partition to 'Linux filesystem'
+
+Command (? for help): n
+Partition number (6-128, default 6): 6
+First sector (34-6295551, default = 6293504) or {+-}size{KMGTP}: 6293504
+Last sector (6293504-6295551, default = 6295551) or {+-}size{KMGTP}: 6295551
+Current type is 8300 (Linux filesystem)
+Hex code or GUID (L to show codes, Enter = 8300): 8300
+Changed type of partition to 'Linux filesystem'
+
+Command (? for help): n
+Partition number (7-128, default 7): 7
+First sector (34-2047, default = 34) or {+-}size{KMGTP}: 34
+Last sector (34-2047, default = 2047) or {+-}size{KMGTP}: 2047
+Current type is 8300 (Linux filesystem)
+Hex code or GUID (L to show codes, Enter = 8300): 8300
+Changed type of partition to 'Linux filesystem'
+
+Command (? for help): n
+No free sectors available
+
+Command (? for help): q
+qq@Lin:/home$ sudo gdisk /dev/sdb
+GPT fdisk (gdisk) version 1.0.5
+
+Partition table scan:
+  MBR: MBR only
+  BSD: not present
+  APM: not present
+  GPT: not present
+
+
+***************************************************************
+Found invalid GPT and valid MBR; converting MBR to GPT format
+in memory. THIS OPERATION IS POTENTIALLY DESTRUCTIVE! Exit by
+typing 'q' if you don't want to convert your MBR partitions
+to GPT format!
+***************************************************************
+
+
+Command (? for help): n
+Partition number (4-128, default 4): 4
+First sector (34-21357022, default = 8390656) or {+-}size{KMGTP}: 34
+Last sector (34-2047, default = 2047) or {+-}size{KMGTP}: 34
+Current type is 8300 (Linux filesystem)
+Hex code or GUID (L to show codes, Enter = 8300): 8300
+Changed type of partition to 'Linux filesystem'
+
+Command (? for help): n
+Partition number (6-128, default 6): 6
+First sector (35-21357022, default = 8390656) or {+-}size{KMGTP}: 35
+Last sector (35-2047, default = 2047) or {+-}size{KMGTP}: 35
+Current type is 8300 (Linux filesystem)
+Hex code or GUID (L to show codes, Enter = 8300): 8300
+Changed type of partition to 'Linux filesystem'
+
+Command (? for help): n
+Partition number (7-128, default 7): 7
+First sector (36-21357022, default = 8390656) or {+-}size{KMGTP}: 36
+Last sector (36-2047, default = 2047) or {+-}size{KMGTP}: 36
+Current type is 8300 (Linux filesystem)
+Hex code or GUID (L to show codes, Enter = 8300): 8300
+Changed type of partition to 'Linux filesystem'
+
+Command (? for help): n
+Partition number (8-128, default 8): 8
+First sector (37-21357022, default = 8390656) or {+-}size{KMGTP}: 37
+Last sector (37-2047, default = 2047) or {+-}size{KMGTP}: 37
+Current type is 8300 (Linux filesystem)
+Hex code or GUID (L to show codes, Enter = 8300): 8300
+Changed type of partition to 'Linux filesystem'
+
+Command (? for help): n
+Partition number (9-128, default 9): 9
+First sector (38-21357022, default = 8390656) or {+-}size{KMGTP}: 38
+Last sector (38-2047, default = 2047) or {+-}size{KMGTP}: 38
+Current type is 8300 (Linux filesystem)
+Hex code or GUID (L to show codes, Enter = 8300): 8300
+Changed type of partition to 'Linux filesystem'
+
+Command (? for help): w
+
+Final checks complete. About to write GPT data. THIS WILL OVERWRITE EXISTING
+PARTITIONS!!
+
+Do you want to proceed? (Y/N): y
+OK; writing new GUID partition table (GPT) to /dev/sdb.
+Warning: The kernel is still using the old partition table.
+The new table will be used at the next reboot or after you
+run partprobe(8) or kpartx(8)
+The operation has completed successfully.
+qq@Lin:/home$ ls /dev/sd*
+/dev/sda   /dev/sda2  /dev/sdb   /dev/sdb2  /dev/sdb4
+/dev/sda1  /dev/sda5  /dev/sdb1  /dev/sdb3  /dev/sdb5
+qq@Lin:/home$ sudo mkfs.ext3 /dev/sdb1
+mke2fs 1.45.5 (07-Jan-2020)
+/dev/sdb1 contains a ext4 file system
+	last mounted on /mnt/partition1 on Thu Mar 21 20:24:16 2024
+Proceed anyway? (y,N) n
+
+qq@Lin:/home$ sudo mkfs.ext3 /dev/sdb2
+mke2fs 1.45.5 (07-Jan-2020)
+/dev/sdb2 contains a ext4 file system
+	last mounted on /mnt/partition2 on Thu Mar 21 20:20:09 2024
+Proceed anyway? (y,N) n   
+
+qq@Lin:/home$ sudo mkfs.ext3 /dev/sdb3
+mke2fs 1.45.5 (07-Jan-2020)
+/dev/sdb3 contains a ext4 file system
+	last mounted on /mnt/partition3 on Thu Mar 21 20:20:15 2024
+Proceed anyway? (y,N) n
+
+qq@Lin:/home$ sudo mkfs.ext3 /dev/sdb1
+mke2fs 1.45.5 (07-Jan-2020)
+/dev/sdb1 contains a ext4 file system
+	last mounted on /mnt/partition1 on Thu Mar 21 20:24:16 2024
+Proceed anyway? (y,N) y
+Creating filesystem with 262144 4k blocks and 65536 inodes
+Filesystem UUID: 9c0f31d1-129f-45e8-b527-a189abb18110
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Creating journal (8192 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+qq@Lin:/home$ sudo mkfs.ext3 /dev/sdb2
+mke2fs 1.45.5 (07-Jan-2020)
+/dev/sdb2 contains a ext4 file system
+	last mounted on /mnt/partition2 on Thu Mar 21 20:20:09 2024
+Proceed anyway? (y,N) y
+/dev/sdb2 is mounted; will not make a filesystem here!
+qq@Lin:/home$ sudo mkfs.ext3 /dev/sdb3
+mke2fs 1.45.5 (07-Jan-2020)
+/dev/sdb3 contains a ext4 file system
+	last mounted on /mnt/partition3 on Thu Mar 21 20:20:15 2024
+Proceed anyway? (y,N) y
+/dev/sdb3 is mounted; will not make a filesystem here!
+qq@Lin:/home$ sudo mkfs.ext3 /dev/sdb4
+mke2fs 1.45.5 (07-Jan-2020)
+Found a dos partition table in /dev/sdb4
+Proceed anyway? (y,N) y
+mkfs.ext3: inode_size (128) * inodes_count (0) too big for a
+	filesystem with 0 blocks, specify higher inode_ratio (-i)
+	or lower inode count (-N).
+
+qq@Lin:/home$ sudo mkfs.ext3 /dev/sdb5
+mke2fs 1.45.5 (07-Jan-2020)
+/dev/sdb5 contains a ext4 file system
+	last mounted on /mnt/partition5 on Thu Mar 21 20:20:21 2024
+Proceed anyway? (y,N) y
+/dev/sdb5 is mounted; will not make a filesystem here!
+qq@Lin:/home$ sudo mkdir /mnt/partition1
+mkdir: cannot create directory '/mnt/partition1': File exists
+qq@Lin:/home$ sudo mkdir /mnt/partition6
+qq@Lin:/home$ sudo mount /dev/sdb1 /mnt/partition6
+qq@Lin:/home$ sudo tee /mnt/partition6/file1.txt
+^C
+qq@Lin:/home$ ls /mnt/partition6
+file1.txt  lost+found
+qq@Lin:/home$ sudo dd if=/dev/sdb of=gpt_backup bs=1048576 count=1
+1+0 records in
+1+0 records out
+1048576 bytes (1,0 MB, 1,0 MiB) copied, 0,00219429 s, 478 MB/s
+qq@Lin:/home$ sudo dd if=/dev/zero of=/dev/sdb bs=1M count=1
+1+0 records in
+1+0 records out
+1048576 bytes (1,0 MB, 1,0 MiB) copied, 0,000656982 s, 1,6 GB/s
+qq@Lin:/home$ sudo dd if=gpt_backup of=/dev/sdb bs=1048576 count=1
+1+0 records in
+1+0 records out
+1048576 bytes (1,0 MB, 1,0 MiB) copied, 0,000657061 s, 1,6 GB/s
+qq@Lin:/home$ sudo mkdir /mnt/partition6
+mkdir: cannot create directory '/mnt/partition6': File exists
+qq@Lin:/home$ sudo mkdir /mnt/partition7
+qq@Lin:/home$ sudo mount /dev/sdb1 /mnt/partition7
+qq@Lin:/home$ ls /mnt/partition7
+file1.txt  lost+found
+qq@Lin:/home$ sudo umount /mnt/partition7
+qq@Lin:/home$ 
+
+
+
+
+
+
+
+
+
+
+
+
+5
+
+
+qq@Lin:~$ sudo groupadd stud3k
+[sudo] password for qq: 
+qq@Lin:~$ sudo useradd -m -g stud3k Stud51
+qq@Lin:~$ sudo useradd -m -g stud3k Stud51
+useradd: user 'Stud51' already exists
+qq@Lin:~$ sudo useradd -m -g stud3k Stud52
+qq@Lin:~$ sudo useradd -m -g stud3k Stud53
+qq@Lin:~$ sudo useradd -m -g stud3k Stud54
+qq@Lin:~$ sudo passwd Stud51
+New password: 
+Retype new password: 
+passwd: password updated successfully
+qq@Lin:~$ sudo passwd Stud52
+New password: 
+Retype new password: 
+passwd: password updated successfully
+qq@Lin:~$ sudo passwd Stud53
+New password: 
+Retype new password: 
+Sorry, passwords do not match.
+passwd: Authentication token manipulation error
+passwd: password unchanged
+qq@Lin:~$ sudo passwd Stud54
+New password: 
+Retype new password: 
+Sorry, passwords do not match.
+passwd: Authentication token manipulation error
+passwd: password unchanged
+qq@Lin:~$ grep stud3k /etc/group
+stud3k:x:1004:
+qq@Lin:~$ groups Stud51
+Stud51 : stud3k
+qq@Lin:~$ 
+
+
+
+
+6
+
+
+  193  sudo mkfs.ext4 /dev/sdb1
+  194  sudo mkfs.ext4 /dev/sdb2
+  195  sudo mkfs.ext4 /dev/sdb3
+  196  sudo mkfs.ext4 /dev/sdb4
+  197  sudo mkfs.ext4 /dev/sdb5
+  198  sudo apt-get install testdisk
+  199  sudo dd if=/dev/zero of=/dev/sdX bs=512 count=1
+  200  sudo testdisk
+  201  exit
+  202  history
+
+qq@Lin:~$ history
+    1  man pwd
+    2  pwd
+    3  man cd
+    4  cd/
+    5  man ls
+    6  ls
+    7  man mkdir
+    8  mkdir test
+    9  cd test
+   10  ls
+   11  mkdir test2
+   12  touch test2/text
+   13  mv test2/text test2/textSIT
+   14  cp test2/textSIT test2/copy.txt
+   15  ln test2/copy.txt link
+   16  ln -s test2/copy.txt simlink
+   17  ls -la
+   18  ls
+   19  cd ..
+   20  ls
+   21  cd test/
+   22  sudo useradd -m sit2
+   23  sudo passwd sit2
+   24  exit
+   25  ls
+   26  cd ..
+   27  ls
+   28  umask 0077
+   29  touch file.txt
+   30  ls
+   31  cat file.txt
+   32  chmod 130 file.txt
+   33  nano file.txt
+   34  cat file.txt
+   35  ls
+   36  ls -l file.txt
+   37  cat file.txt
+   38  ls
+   39  rm *
+   40  ls
+   41  rm -d *
+   42  ls
+   43  cd ..
+   44  ls
+   45  cd rm -rf test
+   46  cd rm test
+   47  cd test/
+   48  ls
+   49  rm -d test2
+   50  ls
+   51  cd test2/
+   52  ls
+   53  rm *
+   54  ls
+   55  cd ..
+   56  rm *
+   57  rm -d *
+   58  ls
+   59  sudo useradd -m sit2
+   60  sudo passwd sit2
+   61  exit
+   62  su sit
+   63  sudo useradd -m sit
+   64  sudo passwd sit2
+   65  sudo passwd sit
+   66  exit
+   67  sudo useradd -m sit2
+   68  sudo passwd sit2
+   69  exit
+   70  history
+   71  ls
+   72  cd test
+   73  su sit
+   74  su sit2
+   75  exit
+   76  su sit
+   77  su sit2
+   78  ls -ld /home/sit
+   79  ls -ld /home/sit2
+   80  su sit2
+   81  123456789
+   82  su sit2
+   83  ls
+   84  cd ..
+   85  ls
+   86  sudo useradd -m sit2
+   87  cd ..
+   88  ls
+   89  cd ..
+   90  ls
+   91  cd ..
+   92  ls
+   93  sudo useradd -m -d /home/sit2 sit2
+   94  sudo passwd sit2
+   95  ls
+   96  sudo useradd -m -d /home/sit2 sit2
+   97  sudo useradd -m -d /home/sit2 sit
+   98  sudo useradd -m -d /home/sit sit
+   99  sudo passwd sit2
+  100  sudo passwd sit
+  101  sudo useradd -m -d /home/sit2 sit2
+  102  ls
+  103  cd ..
+  104  ls
+  105  cd home
+  106  ls
+  107  sudo useradd -m -d /home/sit2
+  108  sudo -m -d /home/sit2
+  109  ls
+  110  su sit
+  111  cd ..
+  112  ls
+  113  fdisk /dev/sdb
+  114  ls
+  115  cd ..
+  116  ls
+  117  fdisk
+  118  fdisk /dev/sdb
+  119  sudo fdisk /dev/sdb
+  120  ls /dev/sd*
+  121  sudo mkfs.ext4 /dev/sdb1
+  122  sudo mkfs.ext4 /dev/sdb2
+  123  sudo mkfs.ext4 /dev/sdb3
+  124  sudo mkfs.ext4 /dev/sdb4
+  125  sudo mkfs.ext4 /dev/sdb
+  126  ls /dev/sd*
+  127  sudo fdisk /dev/sdb
+  128  ls /dev/sd*
+  129  sudo mkfs.ext4 /dev/sdb5
+  130  ls /dev/sd*
+  131  sudo mkdir /mnt/partition1
+  132  sudo mkdir /mnt/partition2
+  133  sudo mkdir /mnt/partition3
+  134  sudo mkdir /mnt/partition5
+  135  sudo mount /dev/sdb1 /mnt/patition1
+  136  sudo mount /dev/sdb1 /mnt/partition1
+  137  sudo mount /dev/sdb2 /mnt/partition2
+  138  sudo mount /dev/sdb3 /mnt/partition3
+  139  sudo mount /dev/sdb5 /mnt/partition5
+  140  sudo tee /mnt/partition1/file1.txt
+  141  ls /mnt/partition1
+  142  sudo tee /mnt/partition2/file2.txt
+  143  sudo tee /mnt/partition3/file3.txt
+  144  sudo tee /mnt/partition5/file5.txt
+  145  ls /mnt/partition1
+  146  ls /mnt/partition2
+  147  ls /mnt/partition3
+  148  ls /mnt/partition5
+  149  sudo dd if=/dev/sda of=mbr_backup bs=512 count=1
+  150  sudo dd if=/dev/zero of=/dev/sda bs=512 count=1
+  151  sudo dd if=mbr_backup of=/dev/sda bs=512 count=1
+  152  sudo umount /dev/sdb1
+  153  sudo fsck /dev/sdb1
+  154  sudo mount /dev/sdb1 /mnt/partition1
+  155  sudo umount /mnt/partition1
+  156  sudo apt-get install gdisk
+  157  sudo gdisk /dev/sdb
+  158  ls /dev/sd*
+  159  sudo mkfs.ext3 /dev/sdb1
+  160  sudo mkfs.ext3 /dev/sdb2
+  161  sudo mkfs.ext3 /dev/sdb3
+  162  sudo mkfs.ext3 /dev/sdb1
+  163  sudo mkfs.ext3 /dev/sdb2
+  164  sudo mkfs.ext3 /dev/sdb3
+  165  sudo mkfs.ext3 /dev/sdb4
+  166  sudo mkfs.ext3 /dev/sdb5
+  167  sudo mkdir /mnt/partition1
+  168  sudo mkdir /mnt/partition6
+  169  sudo mount /dev/sdb1 /mnt/partition6
+  170  sudo tee /mnt/partition6/file1.txt
+  171  ls /mnt/partition6
+  172  sudo dd if=/dev/sdb of=gpt_backup bs=1048576 count=1
+  173  sudo dd if=/dev/zero of=/dev/sdb bs=1M count=1
+  174  sudo dd if=gpt_backup of=/dev/sdb bs=1048576 count=1
+  175  sudo mkdir /mnt/partition6
+  176  sudo mkdir /mnt/partition7
+  177  sudo mount /dev/sdb1 /mnt/partition7
+  178  ls /mnt/partition7
+  179  sudo umount /mnt/partition7
+  180  sudo groupadd stud3k
+  181  sudo useradd -m -g stud3k Stud51
+  182  sudo useradd -m -g stud3k Stud52
+  183  sudo useradd -m -g stud3k Stud53
+  184  sudo useradd -m -g stud3k Stud54
+  185  sudo passwd Stud51
+  186  sudo passwd Stud52
+  187  sudo passwd Stud53
+  188  sudo passwd Stud54
+  189  grep stud3k /etc/group
+  190  groups Stud51
+  191  sudo fdisk /dev/sdb
+  192  ls /dev/sd*
+  193  sudo mkfs.ext4 /dev/sdb1
+  194  sudo mkfs.ext4 /dev/sdb2
+  195  sudo mkfs.ext4 /dev/sdb3
+  196  sudo mkfs.ext4 /dev/sdb4
+  197  sudo mkfs.ext4 /dev/sdb5
+  198  sudo apt-get install testdisk
+  199  sudo dd if=/dev/zero of=/dev/sdX bs=512 count=1
+  200  sudo testdisk
+  201  exit
+  202  history
+qq@Lin:~$ mkdir mylogs
+qq@Lin:~$ cp -r /var/log/* mylogs/
+cp: cannot open '/var/log/apport.log' for reading: Permission denied
+cp: cannot open '/var/log/apt/term.log' for reading: Permission denied
+cp: cannot open '/var/log/auth.log' for reading: Permission denied
+cp: cannot open '/var/log/boot.log' for reading: Permission denied
+cp: cannot open '/var/log/btmp' for reading: Permission denied
+cp: cannot open '/var/log/cups/access_log' for reading: Permission denied
+cp: cannot access '/var/log/gdm3': Permission denied
+cp: cannot open '/var/log/installer/syslog' for reading: Permission denied
+cp: cannot open '/var/log/installer/partman' for reading: Permission denied
+cp: cannot open '/var/log/installer/version' for reading: Permission denied
+cp: cannot open '/var/log/installer/casper.log' for reading: Permission denied
+cp: cannot open '/var/log/installer/debug' for reading: Permission denied
+cp: cannot open '/var/log/journal/fd3909e3adf64d4a842bd9fb5750738c/user-1002.journal' for reading: Permission denied
+cp: cannot open '/var/log/journal/fd3909e3adf64d4a842bd9fb5750738c/system@0006142d198d631a-4e1d1323612cc9f6.journal~' for reading: Permission denied
+cp: cannot open '/var/log/journal/fd3909e3adf64d4a842bd9fb5750738c/user-1004.journal' for reading: Permission denied
+cp: cannot open '/var/log/journal/fd3909e3adf64d4a842bd9fb5750738c/user-1003.journal' for reading: Permission denied
+cp: cannot open '/var/log/journal/fd3909e3adf64d4a842bd9fb5750738c/system.journal' for reading: Permission denied
+cp: cannot open '/var/log/journal/fd3909e3adf64d4a842bd9fb5750738c/system@0006142d0bec5950-d55c759ea952254a.journal~' for reading: Permission denied
+cp: cannot open '/var/log/journal/fd3909e3adf64d4a842bd9fb5750738c/system@08073f1ac459468cbad38638cd3e5823-0000000000000001-00061429b1325087.journal' for reading: Permission denied
+cp: cannot open '/var/log/journal/fd3909e3adf64d4a842bd9fb5750738c/user-1000@3e65519a458f4f948c39b1835ebb8dce-000000000000053f-00061429b60b11ca.journal' for reading: Permission denied
+cp: cannot open '/var/log/kern.log' for reading: Permission denied
+cp: cannot access '/var/log/private': Permission denied
+cp: cannot access '/var/log/speech-dispatcher': Permission denied
+cp: cannot open '/var/log/syslog' for reading: Permission denied
+cp: cannot open '/var/log/ubuntu-advantage.log' for reading: Permission denied
+cp: cannot access '/var/log/unattended-upgrades': Permission denied
+cp: cannot open '/var/log/vboxadd-install.log' for reading: Permission denied
+qq@Lin:~$ cp -r /var/log/* mylogs/
+cp: cannot open '/var/log/apport.log' for reading: Permission denied
+cp: cannot open '/var/log/apt/term.log' for reading: Permission denied
+cp: cannot open '/var/log/auth.log' for reading: Permission denied
+cp: cannot open '/var/log/boot.log' for reading: Permission denied
+cp: cannot open '/var/log/btmp' for reading: Permission denied
+cp: cannot open '/var/log/cups/access_log' for reading: Permission denied
+cp: cannot access '/var/log/gdm3': Permission denied
+cp: cannot open '/var/log/installer/syslog' for reading: Permission denied
+cp: cannot open '/var/log/installer/partman' for reading: Permission denied
+cp: cannot open '/var/log/installer/version' for reading: Permission denied
+cp: cannot open '/var/log/installer/casper.log' for reading: Permission denied
+cp: cannot open '/var/log/installer/debug' for reading: Permission denied
+cp: cannot open '/var/log/journal/fd3909e3adf64d4a842bd9fb5750738c/user-1002.journal' for reading: Permission denied
+cp: cannot open '/var/log/journal/fd3909e3adf64d4a842bd9fb5750738c/system@0006142d198d631a-4e1d1323612cc9f6.journal~' for reading: Permission denied
+cp: cannot open '/var/log/journal/fd3909e3adf64d4a842bd9fb5750738c/user-1004.journal' for reading: Permission denied
+cp: cannot open '/var/log/journal/fd3909e3adf64d4a842bd9fb5750738c/user-1003.journal' for reading: Permission denied
+cp: cannot open '/var/log/journal/fd3909e3adf64d4a842bd9fb5750738c/system.journal' for reading: Permission denied
+cp: cannot open '/var/log/journal/fd3909e3adf64d4a842bd9fb5750738c/system@0006142d0bec5950-d55c759ea952254a.journal~' for reading: Permission denied
+cp: cannot open '/var/log/journal/fd3909e3adf64d4a842bd9fb5750738c/system@08073f1ac459468cbad38638cd3e5823-0000000000000001-00061429b1325087.journal' for reading: Permission denied
+cp: cannot open '/var/log/journal/fd3909e3adf64d4a842bd9fb5750738c/user-1000@3e65519a458f4f948c39b1835ebb8dce-000000000000053f-00061429b60b11ca.journal' for reading: Permission denied
+cp: cannot open '/var/log/kern.log' for reading: Permission denied
+cp: cannot access '/var/log/private': Permission denied
+cp: cannot access '/var/log/speech-dispatcher': Permission denied
+cp: cannot open '/var/log/syslog' for reading: Permission denied
+cp: cannot open '/var/log/ubuntu-advantage.log' for reading: Permission denied
+cp: cannot access '/var/log/unattended-upgrades': Permission denied
+cp: cannot open '/var/log/vboxadd-install.log' for reading: Permission denied
+qq@Lin:~$ rm -r mylogs/*
+qq@Lin:~$ mkdir myetc
+qq@Lin:~$ sudo cp -r /etc/* myetc/
+[sudo] password for qq: 
+qq@Lin:~$ sudo apt-get install extundelete
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  gir1.2-goa-1.0 libfwupdplugin1 libxmlb1
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  extundelete
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 53,2 kB of archives.
+After this operation, 155 kB of additional disk space will be used.
+Get:1 http://kg.archive.ubuntu.com/ubuntu focal/universe amd64 extundelete amd64 0.2.4-2build1 [53,2 kB]
+Fetched 53,2 kB in 1s (103 kB/s)         
+Selecting previously unselected package extundelete.
+(Reading database ... 188384 files and directories currently installed.)
+Preparing to unpack .../extundelete_0.2.4-2build1_amd64.deb ...
+Unpacking extundelete (0.2.4-2build1) ...
+Setting up extundelete (0.2.4-2build1) ...
+Processing triggers for man-db (2.9.1-1) ...
+qq@Lin:~$ sudo extundelete --restore-all --output-dir=recovered_files /dev/sdb1
+extundelete: unrecognized option '--output-dir=recovered_files'
+extundelete: Invalid argument when trying to open filesystem /dev/sdb1
+qq@Lin:~$ sudo apt-get install foremost
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  gir1.2-goa-1.0 libfwupdplugin1 libxmlb1
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  foremost
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 38,8 kB of archives.
+After this operation, 99,3 kB of additional disk space will be used.
+Get:1 http://kg.archive.ubuntu.com/ubuntu focal/universe amd64 foremost amd64 1.5.7-9 [38,8 kB]
+Fetched 38,8 kB in 1s (67,4 kB/s)   
+Selecting previously unselected package foremost.
+(Reading database ... 188390 files and directories currently installed.)
+Preparing to unpack .../foremost_1.5.7-9_amd64.deb ...
+Unpacking foremost (1.5.7-9) ...
+Setting up foremost (1.5.7-9) ...
+Processing triggers for man-db (2.9.1-1) ...
+qq@Lin:~$ sudo foremost -t jpg -i /dev/sdb1 -o recovered_files
+Processing: /dev/sdb1
+|*|
+qq@Lin:~$ 
+
+
+
+
+
+7
+
+1)
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+
+int main() {
+    // Создание первого дочернего процесса
+    pid_t pid1 = fork();
+    if (pid1 < 0) {
+        perror("fork");
+        exit(EXIT_FAILURE);
+    } else if (pid1 == 0) {
+        // Код для первого дочернего процесса
+        struct timeval tv;
+        gettimeofday(&tv, NULL);
+        printf("Child 1 PID: %d, Parent PID: %d, Time: %ld:%ld:%ld:%ld\n",
+               getpid(), getppid(), tv.tv_sec / 3600 % 24, tv.tv_sec / 60 % 60, tv.tv_sec % 60, tv.tv_usec / 1000);
+
+        exit(EXIT_SUCCESS);
+    }
+
+    // Создание второго дочернего процесса
+    pid_t pid2 = fork();
+    if (pid2 < 0) {
+        perror("fork");
+        exit(EXIT_FAILURE);
+    } else if (pid2 == 0) {
+        // Код для второго дочернего процесса
+        struct timeval tv;
+        gettimeofday(&tv, NULL);
+        printf("Child 2 PID: %d, Parent PID: %d, Time: %ld:%ld:%ld:%ld\n",
+               getpid(), getppid(), tv.tv_sec / 3600 % 24, tv.tv_sec / 60 % 60, tv.tv_sec % 60, tv.tv_usec / 1000);
+
+        exit(EXIT_SUCCESS);
+    }
+
+    // Код для родительского процесса
+    struct timeval tv;
+    gettimeofday(&tv, NULL);
+    printf("Parent PID: %d, Time: %ld:%ld:%ld:%ld\n",
+           getpid(), tv.tv_sec / 3600 % 24, tv.tv_sec / 60 % 60, tv.tv_sec % 60, tv.tv_usec / 1000);
+
+    // Использование system() для выполнения команды ps -x
+    system("ps -x");
+
+    // Ожидание завершения обоих дочерних процессов
+    wait(NULL);
+    wait(NULL);
+
+    return 0;
+}
+
+
+
+1,1)
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <pthread.h>
+
+#define MAX_N 1000 // Максимальное значение N
+#define MAX_THREADS 100 // Максимальное количество потоков
+
+int N, K, n;
+double result[MAX_THREADS]; // Результат вычислений каждого потока
+pthread_t threads[MAX_THREADS]; // Идентификаторы потоков
+
+// Функция для вычисления члена ряда Тейлора
+void *compute(void *arg) {
+    int i = *((int *)arg);
+    double sum = 0.0;
+    for (int j = 0; j < n; j++) {
+        sum += pow(-1, j) * pow(i, 2 * j + 1) / factorial(2 * j + 1);
+    }
+    result[i] = sin(2 * M_PI * i / N) * sum;
+    printf("Thread PID: %ld, Result: %lf\n", pthread_self(), result[i]);
+    pthread_exit(NULL);
+}
+
+// Функция для вычисления факториала
+int factorial(int n) {
+    if (n == 0) return 1;
+    return n * factorial(n - 1);
+}
+
+int main() {
+    FILE *file;
+    file = fopen("output.txt", "w");
+    if (file == NULL) {
+        fprintf(stderr, "Error opening file.\n");
+        exit(EXIT_FAILURE);
+    }
+
+    printf("Enter the values of K, N, and n: ");
+    scanf("%d %d %d", &K, &N, &n);
+
+    if (N <= 0 || N > MAX_N || K <= 0 || K > N || n <= 0) {
+        fprintf(stderr, "Invalid input values.\n");
+        exit(EXIT_FAILURE);
+    }
+
+    // Создание потоков
+    for (int i = 0; i < K; i++) {
+        int *arg = malloc(sizeof(*arg));
+        *arg = i;
+        pthread_create(&threads[i], NULL, compute, arg);
+    }
+
+    // Ожидание завершения всех потоков и суммирование результатов
+    double sum = 0.0;
+    for (int i = 0; i < K; i++) {
+        pthread_join(threads[i], NULL);
+        sum += result[i];
+    }
+
+    // Запись результатов в файл
+    fprintf(file, "%lf\n", sum);
+
+    fclose(file);
+
+    return 0;
+}
+
+
+
+
+8
+
+
+
+qq@Lin:~$ sudo apt-get install mdadm
+[sudo] password for qq: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+mdadm is already the newest version (4.1-5ubuntu1.2).
+The following packages were automatically installed and are no longer required:
+  gir1.2-goa-1.0 libfwupdplugin1 libxmlb1
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+qq@Lin:~$ sudo mdadm --create --verbose /dev/md0 --level=1 --raid-devices=2 /dev/sdb /dev/sdc
+mdadm: partition table exists on /dev/sdb
+mdadm: partition table exists on /dev/sdb but will be lost or
+       meaningless after creating array
+mdadm: Note: this array has metadata at the start and
+    may not be suitable as a boot device.  If you plan to
+    store '/boot' on this device please ensure that
+    your boot-loader understands md/v1.x metadata, or use
+    --metadata=0.90
+mdadm: partition table exists on /dev/sdc
+mdadm: partition table exists on /dev/sdc but will be lost or
+       meaningless after creating array
+mdadm: size set to 10669312K
+Continue creating array? 
+Continue creating array? (y/n) y
+mdadm: Defaulting to version 1.2 metadata
+mdadm: array /dev/md0 started.
+qq@Lin:~$ cat /proc/mdstat
+Personalities : [linear] [multipath] [raid0] [raid1] [raid6] [raid5] [raid4] [raid10] 
+md0 : active raid1 sdc[1] sdb[0]
+      10669312 blocks super 1.2 [2/2] [UU]
+      [==>..................]  resync = 13.1% (1401984/10669312) finish=0.6min speed=233664K/sec
+      
+unused devices: <none>
+qq@Lin:~$ sudo mkfs.ext4 /dev/md0
+mke2fs 1.45.5 (07-Jan-2020)
+Creating filesystem with 2667328 4k blocks and 667808 inodes
+Filesystem UUID: 0a7bc761-1f7c-4b9f-8427-f92e4455b84c
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Creating journal (16384 blocks): done
+Writing superblocks and filesystem accounting information: done 
+
+qq@Lin:~$ sudo mkfs.ext4 /dev/md0
+mke2fs 1.45.5 (07-Jan-2020)
+/dev/md0 contains a ext4 file system
+	created on Thu Mar 21 21:28:04 2024
+Proceed anyway? (y,N) y
+Creating filesystem with 2667328 4k blocks and 667808 inodes
+Filesystem UUID: 8c2c6bac-32b5-43a3-8d43-2895bd2a414d
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Creating journal (16384 blocks): done
+Writing superblocks and filesystem accounting information: done 
+
+qq@Lin:~$ sudo mount /dev/md0 /mnt
+aid.txt~$ echo "Произвольное содержимое" | sudo tee /mnt/ra
+Произвольное содержимое
+qq@Lin:~$ sudo mdadm --manage /dev/md0 --fail /dev/sdb
+mdadm: set /dev/sdb faulty in /dev/md0
+qq@Lin:~$ sudo mdadm --manage /dev/md0 --remove /dev/sdb
+mdadm: hot removed /dev/sdb from /dev/md0
+qq@Lin:~$ cat /proc/mdstat
+Personalities : [linear] [multipath] [raid0] [raid1] [raid6] [raid5] [raid4] [raid10] 
+md0 : active raid1 sdc[1]
+      10669312 blocks super 1.2 [2/1] [_U]
+      
+unused devices: <none>
+qq@Lin:~$ md5sum /mnt/raid.txt
+e23c259562a2b701705fdc32da5ca94b  /mnt/raid.txt
+qq@Lin:~$ md5sum /mnt/raid.txt
+e23c259562a2b701705fdc32da5ca94b  /mnt/raid.txt
+qq@Lin:~$ sudo umount /mnt
+qq@Lin:~$ sudo mdadm --stop /dev/md0
+mdadm: stopped /dev/md0
+qq@Lin:~$ cat /proc/mdstat
+Personalities : [linear] [multipath] [raid0] [raid1] [raid6] [raid5] [raid4] [raid10] 
+unused devices: <none>
+qq@Lin:~$ sudo umount /mnt
+umount: /mnt: not mounted.
+qq@Lin:~$ sudo mdadm --zero-superblock /dev/sdb
+qq@Lin:~$ sudo mdadm --zero-superblock /dev/sdc
+qq@Lin:~$ sudo apt-get install mdadm
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+mdadm is already the newest version (4.1-5ubuntu1.2).
+The following packages were automatically installed and are no longer required:
+  gir1.2-goa-1.0 libfwupdplugin1 libxmlb1
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+qq@Lin:~$ sudo mdadm --create --verbose /dev/md0 --level=0 --raid-devices=2 /dev/sdb /dev/sdc
+mdadm: chunk size defaults to 512K
+mdadm: partition table exists on /dev/sdb
+mdadm: partition table exists on /dev/sdb but will be lost or
+       meaningless after creating array
+mdadm: partition table exists on /dev/sdc
+mdadm: partition table exists on /dev/sdc but will be lost or
+       meaningless after creating array
+Continue creating array? 
+Continue creating array? (y/n) y
+mdadm: Defaulting to version 1.2 metadata
+mdadm: array /dev/md0 started.
+qq@Lin:~$ cat /proc/mdstat
+Personalities : [linear] [multipath] [raid0] [raid1] [raid6] [raid5] [raid4] [raid10] 
+md0 : active raid0 sdc[1] sdb[0]
+      21338112 blocks super 1.2 512k chunks
+      
+unused devices: <none>
+qq@Lin:~$ sudo mkfs.ext4 /dev/md0
+mke2fs 1.45.5 (07-Jan-2020)
+/dev/md0 contains a ext4 file system
+	last mounted on /mnt on Thu Mar 21 21:28:43 2024
+Proceed anyway? (y,N) y
+Creating filesystem with 5334528 4k blocks and 1335296 inodes
+Filesystem UUID: 0d5187e9-2bb2-41dc-b4e6-21432b57ec62
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208, 
+	4096000
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Creating journal (32768 blocks): done
+Writing superblocks and filesystem accounting information: done   
+
+qq@Lin:~$ sudo mkfs.ext3 /dev/md0
+mke2fs 1.45.5 (07-Jan-2020)
+/dev/md0 contains a ext4 file system
+	created on Thu Mar 21 21:31:42 2024
+Proceed anyway? (y,N) y
+Creating filesystem with 5334528 4k blocks and 1335296 inodes
+Filesystem UUID: 31650007-7c8f-40d1-86f7-3580217174a4
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208, 
+	4096000
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Creating journal (32768 blocks): 
+done
+Writing superblocks and filesystem accounting information: done   
+
+qq@Lin:~$ 
+qq@Lin:~$ sudo mount /dev/md0 /mnt
+aid.txt~$ echo "Произвольное содержимое" | sudo tee /mnt/ra
+Произвольное содержимое
+qq@Lin:~$ sudo apt-get install mdadm
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+mdadm is already the newest version (4.1-5ubuntu1.2).
+The following packages were automatically installed and are no longer required:
+  gir1.2-goa-1.0 libfwupdplugin1 libxmlb1
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+qq@Lin:~$ cat /proc/mdstat
+Personalities : [linear] [multipath] [raid0] [raid1] [raid6] [raid5] [raid4] [raid10] 
+md0 : active raid0 sdc[1] sdb[0]
+      21338112 blocks super 1.2 512k chunks
+      
+unused devices: <none>
+qq@Lin:~$ sudo mdadm --manage /dev/md0 --fail /dev/sdb
+mdadm: set device faulty failed for /dev/sdb:  Device or resource busy
+qq@Lin:~$ sudo mdadm --manage /dev/md0 --remove /dev/sdb
+cat /proc/mdstat
+mdadm: hot remove failed for /dev/sdb: Device or resource busy
+qq@Lin:~$ cat /proc/mdstat
+Personalities : [linear] [multipath] [raid0] [raid1] [raid6] [raid5] [raid4] [raid10] 
+md0 : active raid0 sdc[1] sdb[0]
+      21338112 blocks super 1.2 512k chunks
+      
+unused devices: <none>
+qq@Lin:~$ md5sum /mnt/raid.txt
+e23c259562a2b701705fdc32da5ca94b  /mnt/raid.txt
+qq@Lin:~$ sudo umount /mnt
+qq@Lin:~$ sudo mdadm --stop /dev/md0
+mdadm: stopped /dev/md0
+qq@Lin:~$ cat /proc/mdstat
+Personalities : [linear] [multipath] [raid0] [raid1] [raid6] [raid5] [raid4] [raid10] 
+unused devices: <none>
+qq@Lin:~$ sudo umount /mnt
+umount: /mnt: not mounted.
+qq@Lin:~$ sudo mdadm --zero-superblock /dev/sdb
+qq@Lin:~$ sudo mdadm --zero-superblock /dev/sdc
+qq@Lin:~$ sudo apt-get install mdadm
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+mdadm is already the newest version (4.1-5ubuntu1.2).
+The following packages were automatically installed and are no longer required:
+  gir1.2-goa-1.0 libfwupdplugin1 libxmlb1
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+qq@Lin:~$ sudo mdadm --create --verbose /dev/md0 --level=5 --raid-devices=3 --spare-devices=1 /dev/sdb /dev/sdc /dev/sdd --spare=/dev/sde
+mdadm: spare-devices set twice: 1 and /dev/sde
+qq@Lin:~$ cat /proc/mdstat
+Personalities : [linear] [multipath] [raid0] [raid1] [raid6] [raid5] [raid4] [raid10] 
+unused devices: <none>
+qq@Lin:~$ sudo mkfs.ext4 /dev/md0
+mke2fs 1.45.5 (07-Jan-2020)
+The file /dev/md0 does not exist and no size was specified.
+qq@Lin:~$ sudo mkfs.ext4 /dev/md0
+mke2fs 1.45.5 (07-Jan-2020)
+The file /dev/md0 does not exist and no size was specified.
+qq@Lin:~$ sudo mount /dev/md0 /mnt
+mount: /mnt: special device /dev/md0 does not exist.
+aid.txt~$ echo "Произвольное содержимое" | sudo tee /mnt/ra
+Произвольное содержимое
+qq@Lin:~$ sudo mdadm --manage /dev/md0 --fail /dev/sdb
+mdadm: error opening /dev/md0: No such file or directory
+qq@Lin:~$ sudo mdadm --manage /dev/md0 --remove /dev/sdb
+mdadm: error opening /dev/md0: No such file or directory
+qq@Lin:~$ 
+qq@Lin:~$ sudo mdadm --manage /dev/md0 --fail /dev/sdc
+mdadm: error opening /dev/md0: No such file or directory
+qq@Lin:~$ sudo mdadm --manage /dev/md0 --remove /dev/sdc
+mdadm: error opening /dev/md0: No such file or directory
+qq@Lin:~$ 
+qq@Lin:~$ sudo mdadm --manage /dev/md0 --fail /dev/sdd
+mdadm: error opening /dev/md0: No such file or directory
+qq@Lin:~$ sudo mdadm --manage /dev/md0 --remove /dev/sdd
+mdadm: error opening /dev/md0: No such file or directory
+qq@Lin:~$ cat /proc/mdstat
+Personalities : [linear] [multipath] [raid0] [raid1] [raid6] [raid5] [raid4] [raid10] 
+unused devices: <none>
+qq@Lin:~$ md5sum /mnt/raid.txt
+e23c259562a2b701705fdc32da5ca94b  /mnt/raid.txt
+qq@Lin:~$ md5sum /mnt/raid.txt
+e23c259562a2b701705fdc32da5ca94b  /mnt/raid.txt
+qq@Lin:~$ sudo umount /mnt
+umount: /mnt: not mounted.
+qq@Lin:~$ sudo mdadm --stop /dev/md0
+mdadm: error opening /dev/md0: No such file or directory
+qq@Lin:~$ cat /proc/mdstat
+Personalities : [linear] [multipath] [raid0] [raid1] [raid6] [raid5] [raid4] [raid10] 
+unused devices: <none>
+qq@Lin:~$ sudo umount /mnt
+umount: /mnt: not mounted.
+qq@Lin:~$ sudo mdadm --zero-superblock /dev/sdb
+mdadm: Unrecognised md component device - /dev/sdb
+qq@Lin:~$ sudo mdadm --zero-superblock /dev/sdc
+mdadm: Unrecognised md component device - /dev/sdc
+qq@Lin:~$ sudo mdadm --zero-superblock /dev/sdd
+mdadm: Couldn't open /dev/sdd for write - not zeroing
+qq@Lin:~$ sudo mdadm --zero-superblock /dev/sde
+mdadm: Couldn't open /dev/sde for write - not zeroing
+qq@Lin:~$ sudo apt-get install mdadm
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+mdadm is already the newest version (4.1-5ubuntu1.2).
+The following packages were automatically installed and are no longer required:
+  gir1.2-goa-1.0 libfwupdplugin1 libxmlb1
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+qq@Lin:~$ sudo mdadm --create --verbose /dev/md0 --level=10 --raid-devices=4 --spare-devices=1 /dev/sdb /dev/sdc /dev/sdd /dev/sde --spare=/dev/sdf
+mdadm: spare-devices set twice: 1 and /dev/sdf
+qq@Lin:~$ cat /proc/mdstat
+Personalities : [linear] [multipath] [raid0] [raid1] [raid6] [raid5] [raid4] [raid10] 
+unused devices: <none>
+qq@Lin:~$ sudo mkfs.ext4 /dev/md0
+mke2fs 1.45.5 (07-Jan-2020)
+The file /dev/md0 does not exist and no size was specified.
+qq@Lin:~$ sudo apt-get install mdadm
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+mdadm is already the newest version (4.1-5ubuntu1.2).
+The following packages were automatically installed and are no longer required:
+  gir1.2-goa-1.0 libfwupdplugin1 libxmlb1
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+qq@Lin:~$ sudo mdadm --create --verbose /dev/md0 --level=10 --raid-devices=4 --spare-devices=1 /dev/sdb /dev/sdc /dev/sdd /dev/sde --spare=/dev/sdf
+mdadm: spare-devices set twice: 1 and /dev/sdf
+qq@Lin:~$ cat /proc/mdstat
+Personalities : [linear] [multipath] [raid0] [raid1] [raid6] [raid5] [raid4] [raid10] 
+unused devices: <none>
+qq@Lin:~$ sudo mkdir /mnt/raid
+qq@Lin:~$ sudo mount /dev/md0 /mnt/raid
+mount: /mnt/raid: special device /dev/md0 does not exist.
+qq@Lin:~$ sudo mount /dev/md0 /mnt
+mount: /mnt: special device /dev/md0 does not exist.
+aid.txt~$ echo "Произвольное содержимое" | sudo tee /mnt/ra
+Произвольное содержимое
+qq@Lin:~$ sudo mdadm --manage /dev/md0 --fail /dev/sdb
+mdadm: error opening /dev/md0: No such file or directory
+qq@Lin:~$ sudo mdadm --manage /dev/md0 --remove /dev/sdb
+mdadm: error opening /dev/md0: No such file or directory
+qq@Lin:~$ 
+qq@Lin:~$ sudo mdadm --manage /dev/md0 --fail /dev/sdc
+mdadm: error opening /dev/md0: No such file or directory
+qq@Lin:~$ sudo mdadm --manage /dev/md0 --remove /dev/sdc
+mdadm: error opening /dev/md0: No such file or directory
+qq@Lin:~$ cat /proc/mdstat
+Personalities : [linear] [multipath] [raid0] [raid1] [raid6] [raid5] [raid4] [raid10] 
+unused devices: <none>
+qq@Lin:~$ md5sum /mnt/raid.txt
+e23c259562a2b701705fdc32da5ca94b  /mnt/raid.txt
+qq@Lin:~$ md5sum /mnt/raid.txt
+e23c259562a2b701705fdc32da5ca94b  /mnt/raid.txt
+qq@Lin:~$ sudo umount /mnt
+umount: /mnt: not mounted.
+qq@Lin:~$ sudo mdadm --zero-superblock /dev/sdb
+mdadm: Unrecognised md component device - /dev/sdb
+qq@Lin:~$ sudo mdadm --zero-superblock /dev/sdc
+mdadm: Unrecognised md component device - /dev/sdc
+qq@Lin:~$ sudo mdadm --zero-superblock /dev/sdd
+mdadm: Couldn't open /dev/sdd for write - not zeroing
+qq@Lin:~$ sudo mdadm --zero-superblock /dev/sde
+mdadm: Couldn't open /dev/sde for write - not zeroing
+qq@Lin:~$ lsblk
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0  55,4M  1 loop /snap/core18/2128
+loop1    7:1    0  55,7M  1 loop /snap/core18/2812
+loop2    7:2    0  65,1M  1 loop /snap/gtk-common-themes/1515
+loop3    7:3    0     4K  1 loop /snap/bare/5
+loop4    7:4    0 218,4M  1 loop /snap/gnome-3-34-1804/93
+loop5    7:5    0   219M  1 loop /snap/gnome-3-34-1804/72
+loop6    7:6    0  91,7M  1 loop /snap/gtk-common-themes/1535
+loop7    7:7    0  32,3M  1 loop /snap/snapd/12704
+loop8    7:8    0    51M  1 loop /snap/snap-store/547
+sda      8:0    0  31,5G  0 disk 
+|-sda1   8:1    0   512M  0 part /boot/efi
+|-sda2   8:2    0     1K  0 part 
+`-sda5   8:5    0    31G  0 part /
+sdb      8:16   0  10,2G  0 disk 
+|-sdb1   8:17   0   512B  0 part 
+`-sdb2   8:18   0   512B  0 part 
+sdc      8:32   0  10,2G  0 disk 
+|-sdc1   8:33   0     1G  0 part 
+|-sdc2   8:34   0     1G  0 part 
+|-sdc3   8:35   0     1G  0 part 
+|-sdc4   8:36   0     1K  0 part 
+`-sdc5   8:37   0  1023M  0 part 
+sr0     11:0    1  1024M  0 rom  
+qq@Lin:~$ sudo pvcreate /dev/sdb /dev/sdc
+sudo: pvcreate: command not found
+qq@Lin:~$ sudo apt-get install lvm2
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  gir1.2-goa-1.0 libfwupdplugin1 libxmlb1
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  dmeventd libaio1 libdevmapper-event1.02.1 liblvm2cmd2.03 libreadline5
+  thin-provisioning-tools
+The following NEW packages will be installed:
+  dmeventd libaio1 libdevmapper-event1.02.1 liblvm2cmd2.03 libreadline5 lvm2
+  thin-provisioning-tools
+0 upgraded, 7 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2 255 kB of archives.
+After this operation, 8 919 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://kg.archive.ubuntu.com/ubuntu focal/main amd64 libdevmapper-event1.02.1 amd64 2:1.02.167-1ubuntu1 [11,9 kB]
+Get:2 http://kg.archive.ubuntu.com/ubuntu focal/main amd64 libaio1 amd64 0.3.112-5 [7 184 B]
+Get:3 http://kg.archive.ubuntu.com/ubuntu focal/main amd64 liblvm2cmd2.03 amd64 2.03.07-1ubuntu1 [673 kB]
+Get:4 http://kg.archive.ubuntu.com/ubuntu focal/main amd64 dmeventd amd64 2:1.02.167-1ubuntu1 [35,1 kB]
+Get:5 http://kg.archive.ubuntu.com/ubuntu focal/main amd64 libreadline5 amd64 5.2+dfsg-3build3 [100 kB]
+Get:6 http://kg.archive.ubuntu.com/ubuntu focal/main amd64 lvm2 amd64 2.03.07-1ubuntu1 [1 053 kB]
+Get:7 http://kg.archive.ubuntu.com/ubuntu focal/main amd64 thin-provisioning-tools amd64 0.8.5-4build1 [375 kB]
+Fetched 2 255 kB in 2s (1 149 kB/s)                
+Selecting previously unselected package libdevmapper-event1.02.1:amd64.
+(Reading database ... 188486 files and directories currently installed.)
+Preparing to unpack .../0-libdevmapper-event1.02.1_2%3a1.02.167-1ubuntu1_amd64.deb ...
+Unpacking libdevmapper-event1.02.1:amd64 (2:1.02.167-1ubuntu1) ...
+Selecting previously unselected package libaio1:amd64.
+Preparing to unpack .../1-libaio1_0.3.112-5_amd64.deb ...
+Unpacking libaio1:amd64 (0.3.112-5) ...
+Selecting previously unselected package liblvm2cmd2.03:amd64.
+Preparing to unpack .../2-liblvm2cmd2.03_2.03.07-1ubuntu1_amd64.deb ...
+Unpacking liblvm2cmd2.03:amd64 (2.03.07-1ubuntu1) ...
+Selecting previously unselected package dmeventd.
+Preparing to unpack .../3-dmeventd_2%3a1.02.167-1ubuntu1_amd64.deb ...
+Unpacking dmeventd (2:1.02.167-1ubuntu1) ...
+Selecting previously unselected package libreadline5:amd64.
+Preparing to unpack .../4-libreadline5_5.2+dfsg-3build3_amd64.deb ...
+Unpacking libreadline5:amd64 (5.2+dfsg-3build3) ...
+Selecting previously unselected package lvm2.
+Preparing to unpack .../5-lvm2_2.03.07-1ubuntu1_amd64.deb ...
+Unpacking lvm2 (2.03.07-1ubuntu1) ...
+Selecting previously unselected package thin-provisioning-tools.
+Preparing to unpack .../6-thin-provisioning-tools_0.8.5-4build1_amd64.deb ...
+Unpacking thin-provisioning-tools (0.8.5-4build1) ...
+Setting up libreadline5:amd64 (5.2+dfsg-3build3) ...
+Setting up libdevmapper-event1.02.1:amd64 (2:1.02.167-1ubuntu1) ...
+Setting up libaio1:amd64 (0.3.112-5) ...
+Setting up thin-provisioning-tools (0.8.5-4build1) ...
+update-initramfs: deferring update (trigger activated)
+Setting up liblvm2cmd2.03:amd64 (2.03.07-1ubuntu1) ...
+Setting up dmeventd (2:1.02.167-1ubuntu1) ...
+Created symlink /etc/systemd/system/sockets.target.wants/dm-event.socket -> /lib/systemd/system/dm-event.socket.
+dm-event.service is a disabled or a static unit, not starting it.
+Setting up lvm2 (2.03.07-1ubuntu1) ...
+update-initramfs: deferring update (trigger activated)
+Created symlink /etc/systemd/system/sysinit.target.wants/blk-availability.service -> /lib/systemd/system/blk-availability.service.
+Created symlink /etc/systemd/system/sysinit.target.wants/lvm2-monitor.service -> /lib/systemd/system/lvm2-monitor.service.
+Created symlink /etc/systemd/system/sysinit.target.wants/lvm2-lvmpolld.socket -> /lib/systemd/system/lvm2-lvmpolld.socket.
+Processing triggers for libc-bin (2.31-0ubuntu9.14) ...
+Processing triggers for systemd (245.4-4ubuntu3.23) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for initramfs-tools (0.136ubuntu6.7) ...
+update-initramfs: Generating /boot/initrd.img-5.15.0-101-generic
+
+qq@Lin:~$ sudo pvcreate /dev/sdb /dev/sdc
+  Device /dev/sdb excluded by a filter.
+  Device /dev/sdc excluded by a filter.
+qq@Lin:~$ sudo pvdisplay
+qq@Lin:~$ sudo pvcreate /dev/sdb /dev/sdc /dev/sdd /dev/sde
+  Device /dev/sdb excluded by a filter.
+  Device /dev/sdc excluded by a filter.
+  Device /dev/sdd not found.
+  Device /dev/sde not found.
+qq@Lin:~$ sudo vgcreate myvg /dev/sdb /dev/sdc /dev/sdd /dev/sde
+  Device /dev/sdb excluded by a filter.
+  Device /dev/sdc excluded by a filter.
+  Device /dev/sdd not found.
+  Device /dev/sde not found.
+qq@Lin:~$ 
+
+qq@Lin:~$ sudo pvcreate /dev/sdb /dev/sdc /dev/sdd /dev/sde
+[sudo] password for qq: 
+  Device /dev/sdb excluded by a filter.
+  Device /dev/sdc excluded by a filter.
+  Physical volume "/dev/sdd" successfully created.
+  Physical volume "/dev/sde" successfully created.
+qq@Lin:~$ sudo vgcreate myvg /dev/sdb /dev/sdc /dev/sdd /dev/sde
+  Device /dev/sdb excluded by a filter.
+  Device /dev/sdc excluded by a filter.
+qq@Lin:~$ sudo vgdisplay myvg
+  Volume group "myvg" not found
+  Cannot process volume group myvg
+qq@Lin:~$ sudo lvcreate -n mylv -L 1G myvg
+  Volume group "myvg" not found
+  Cannot process volume group myvg
+qq@Lin:~$ sudo vgcreate myvg /dev/sdb /dev/sdc /dev/sdd /dev/sde
+  Device /dev/sdb excluded by a filter.
+  Device /dev/sdc excluded by a filter.
+qq@Lin:~$ sudo lvcreate -n mylv -L 1G myvg
+  Volume group "myvg" not found
+  Cannot process volume group myvg
+qq@Lin:~$ sudo mkdir /mnt/lvm
+qq@Lin:~$ sudo mount /dev/myvg/mylv /mnt/lvm
+mount: /mnt/lvm: special device /dev/myvg/mylv does not exist.
+qq@Lin:~$ cd /mnt/lvm
+qq@Lin:/mnt/lvm$ sudo touch LVM.txt
+qq@Lin:/mnt/lvm$ sudo pvcreate /dev/sdf
+  Device /dev/sdf not found.
+qq@Lin:/mnt/lvm$ sudo vgextend myvg /dev/sdf
+  Device /dev/sdf not found.
+qq@Lin:/mnt/lvm$ sudo vgdisplay myvg | grep "Total PE"
+  Volume group "myvg" not found
+  Cannot process volume group myvg
+qq@Lin:/mnt/lvm$ sudo lvdisplay /dev/myvg/mylv | grep "LV Size"
+  Volume group "myvg" not found
+  Cannot process volume group myvg
+qq@Lin:/mnt/lvm$ sudo vgdisplay myvg | grep "Free  PE"
+  Volume group "myvg" not found
+  Cannot process volume group myvg
+qq@Lin:/mnt/lvm$ sudo lsblk -f
+NAME FSTYPE LABEL UUID                                   FSAVAIL FSUSE% MOUNTPOINT
+loop0
+     squash                                                    0   100% /snap/bare
+loop1
+     squash                                                    0   100% /snap/core
+loop2
+     squash                                                    0   100% /snap/gnom
+loop3
+     squash                                                    0   100% /snap/gtk-
+loop4
+     squash                                                    0   100% /snap/core
+loop5
+     squash                                                    0   100% /snap/snap
+loop6
+     squash                                                    0   100% /snap/gtk-
+loop7
+     squash                                                    0   100% /snap/snap
+loop8
+     squash                                                    0   100% /snap/gnom
+sda                                                                     
+|-sda1
+|    vfat         2A93-A150                                 511M     0% /boot/efi
+|-sda2
+|                                                                       
+`-sda5
+     ext4         c4e79bca-d127-4f90-9a3f-f7c82af98f02     19,6G    30% /
+sdb                                                                     
+|-sdb1
+|                                                                       
+`-sdb2
+                                                                        
+sdc                                                                     
+|-sdc1
+|                                                                       
+|-sdc2
+|    ext4         aea72db8-306a-49ce-8f73-50cec7369b70                  
+|-sdc3
+|    ext4         dd9e7d00-7963-4eb7-953c-593aa1fb5deb                  
+|-sdc4
+|                                                                       
+`-sdc5
+     ext4         e53a12f7-1680-4c9e-8212-0dfefebbd544                  
+sdd  LVM2_m       pMKNDM-36yP-uVy9-EbsJ-mDLh-P9r5-B31u2u                
+sde  LVM2_m       vk6ZOy-3GPH-qLfK-JLjm-m2Hx-VD3U-IusGqS                
+sr0                                                                     
+qq@Lin:/mnt/lvm$ sudo resize2fs /dev/myvg/mylv
+resize2fs 1.45.5 (07-Jan-2020)
+open: No such file or directory while opening /dev/myvg/mylv
+qq@Lin:/mnt/lvm$ sudo lvcreate -s -n snapshot_name -L size original_lv
+  Size requires number argument.
+  Invalid argument for --size: size
+  Error during parsing of command line.
+qq@Lin:/mnt/lvm$ sudo lvcreate -s -n mysnapshot -L 1G /dev/myvg/mylv
+  Volume group "myvg" not found
+  Cannot process volume group myvg
+qq@Lin:/mnt/lvm$ 
+
+
+
+
+
+
+
+
+
